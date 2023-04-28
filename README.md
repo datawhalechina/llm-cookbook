@@ -29,10 +29,10 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 2. Prompt 的构建原则 Guidelines @邹雨衡
 3. 如何迭代优化 Prompt Itrative @邹雨衡
 4. 文本总结 Summarizing @玉琳
-5. 文本推断 @长琴
+5. 文本推断 Inferring @长琴
 6. 文本转换 Transforming @玉琳
 7. 文本扩展 Expand @邹雨衡
-8. 聊天机器人 @长琴
+8. 聊天机器人 Chatbot@长琴
 9. 总结 @长琴
 
 ### 项目负责人
