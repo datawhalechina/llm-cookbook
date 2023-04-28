@@ -35,8 +35,16 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 8. 聊天机器人 Chatbot@长琴
 9. 总结 @长琴
 
-### 项目负责人
+### 致谢
 
-邹雨衡
-Github 主页：https://github.com/nowadays0421
-微信号：logan12120421
+**核心贡献者**
+
+- [邹雨衡-项目负责人](https://github.com/nowadays0421)
+- [长琴](https://yam.gift/)（内容创作者-Datawhale成员-AI算法工程师）
+- [玉琳](https://github.com/Sophia-Huang)（内容创作者-Datawhale成员）
+
+
+**其他**
+
+1. 特别感谢 [@Sm1les](https://github.com/Sm1les)、[@LSGOMYP](https://github.com/LSGOMYP) 对本项目的帮助与支持；
+
