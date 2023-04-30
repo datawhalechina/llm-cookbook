@@ -1,3 +1,5 @@
+![Readme](figures/readme_english.png)
+
 # prompt-engineering-for-developers
 
 ### 项目简介
