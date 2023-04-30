@@ -9,6 +9,7 @@
 > 文本转换（如翻译、自动纠错）；
 > 扩展（如书写邮件）
 
+**英文原版地址：[ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai)**
 
 ### 项目意义
 
