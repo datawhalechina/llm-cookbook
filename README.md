@@ -1,4 +1,4 @@
-![figures/readme_english.png](https://github.com/datawhalechina/prompt-engineering-for-developers/blob/main/figures/readme_english.png)
+![figures/readme.png](https://github.com/datawhalechina/prompt-engineering-for-developers/blob/main/figures/readme.jpeg)
 
 # prompt-engineering-for-developers
 
