@@ -41,7 +41,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 8. 聊天机器人 Chatbot @长琴
 9. 总结 @长琴
 
-中文字幕视频：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web) @礼行学长
+中文字幕视频：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web) @万礼行
 ### 致谢
 
 **核心贡献者**
@@ -49,6 +49,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 - [邹雨衡-项目负责人](https://github.com/nowadays0421)
 - [长琴](https://yam.gift/)（内容创作者-Datawhale成员-AI算法工程师）
 - [玉琳](https://github.com/Sophia-Huang)（内容创作者-Datawhale成员）
+- [万礼行](https://github.com/leason-wan)（视频翻译者）
 
 
 **其他**
