@@ -14,9 +14,11 @@
 
 **英文原版地址：[ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai)**
 
+**中文字幕视频地址：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web)**
+
 ### 项目意义
 
-LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM 提供的 API 快速、便捷地开发一些具备更强能力、集成LLM 的应用，来便捷地实现一些更新颖、更实用的能力，是一个急需学习的重要能力。由吴恩达老师与 OpenAI 合作推出的 《ChatGPT Prompt Engineering for Developers》教程面向入门 LLM 的开发者，深入浅出地介绍了对于开发者，如何构造 Prompt 并基于 OpenAI 提供的 API 实现包括总结、推断、转换等多种常用功能，是入门 LLM 开发的经典教程。因此，我们将该课程翻译为中文，并复现其范例代码，支持国内中文学习者直接使用，以帮助中文学习者更好地学习 LLM 开发。
+LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM 提供的 API 快速、便捷地开发一些具备更强能力、集成LLM 的应用，来便捷地实现一些更新颖、更实用的能力，是一个急需学习的重要能力。由吴恩达老师与 OpenAI 合作推出的 《ChatGPT Prompt Engineering for Developers》教程面向入门 LLM 的开发者，深入浅出地介绍了对于开发者，如何构造 Prompt 并基于 OpenAI 提供的 API 实现包括总结、推断、转换等多种常用功能，是入门 LLM 开发的经典教程。因此，我们将该课程翻译为中文，并复现其范例代码，也为原视频增加了中文字幕，支持国内中文学习者直接使用，以帮助中文学习者更好地学习 LLM 开发。
 
 ### 项目受众
 
@@ -39,6 +41,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 8. 聊天机器人 Chatbot @长琴
 9. 总结 @长琴
 
+中文字幕视频：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web) @礼行学长
 ### 致谢
 
 **核心贡献者**
