@@ -57,6 +57,14 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 **其他**
 
 1. 特别感谢 [@Sm1les](https://github.com/Sm1les)、[@LSGOMYP](https://github.com/LSGOMYP) 对本项目的帮助与支持；
+2. 如果有任何想法可以联系我们DataWhale也欢迎大家多多提出issue。
+3. 特别感谢以下为教程做出贡献的同学！
+
+<a href="https://github.com/datawhalechina/prompt-engineering-for-developers/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=datawhalechina/prompt-engineering-for-developers" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 ### 关注我们
 
