@@ -71,10 +71,10 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 1. 上下文学习 In-context Learning @Noah
 2. 思维链 Chain of Thought @玉琳
 3. Prompt 模板 Template @万礼行
-4. Prompt 集成 Ensembling **待招募**
+4. Prompt 集成 Ensembling @杨同学
 5. 自我一致性 Self-consistency **待招募**
 6. 对抗性提示 Adversarial Prompting @周辉池
-7. 可靠性 Reliability **待招募**
+7. 可靠性 Reliability @成剑
 8. 自动 Prompt 工程 Automatic Prompt Engineer @邹雨衡
 
 ### 配套视频
