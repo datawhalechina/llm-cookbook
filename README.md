@@ -72,7 +72,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 2. 思维链 Chain of Thought @玉琳
 3. Prompt 模板 Template @万礼行
 4. Prompt 集成 Ensembling @杨同学
-5. 自我一致性 Self-consistency **待招募**
+5. 自我一致性 Self-consistency @朱宏民
 6. 对抗性提示 Adversarial Prompting @周辉池
 7. 可靠性 Reliability @成剑
 8. 自动 Prompt 工程 Automatic Prompt Engineer @邹雨衡
@@ -94,9 +94,8 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 **其他**
 
 1. 特别感谢 [@Sm1les](https://github.com/Sm1les)、[@LSGOMYP](https://github.com/LSGOMYP) 对本项目的帮助与支持；
-2. 目前，**进阶内容还有部分尚在招募创作者，欢迎有兴趣有精力的同学联系我（姓名：邹雨衡；微信号：logan12120421）**；
-3. 如果有任何想法可以联系我们 DataWhale 也欢迎大家多多提出 issue；
-4. 特别感谢以下为教程做出贡献的同学！
+2. 如果有任何想法可以联系我们 DataWhale 也欢迎大家多多提出 issue；
+3. 特别感谢以下为教程做出贡献的同学！
 
 <a href="https://github.com/datawhalechina/prompt-engineering-for-developers/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=datawhalechina/prompt-engineering-for-developers" />
