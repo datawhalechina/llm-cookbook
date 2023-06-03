@@ -1,0 +1,29 @@
+## 吴恩达 LangChain大模型应用开发 开端篇
+
+## LangChain for LLM Application Development
+
+欢迎来到LangChain大模型应用开发短期课程👏🏻👏🏻
+
+本课程由哈里森·蔡斯 (Harrison Chase，LangChain作者）与Deeplearning.ai合作开发，旨在教大家使用这个神奇工具。
+
+### 🚀 LangChain的诞生和发展
+
+通过提示LLM或大型语言模型，现在可以比以往更快地开发AI应用程序，但是一个应用程序可能需要提示和多次并暂停作为输出。
+
+在此过程有很多胶水代码需要编写，因此哈里森·蔡斯 (Harrison Chase) 创建了LangChain，整合了常见的抽象功能，使开发过程变得更加丝滑。
+
+LangChain开源社区快速发展，贡献者已达数百人，正以惊人的速度更新代码和功能。
+
+
+
+### 📚 课程基本内容
+
+LangChain是用于构建大模型应用程序的开源框架，有Python和JavaScript两个不同版本的包。LangChain基于模块化组合，有许多单独的组件，可以一起使用或单独使用。此外LangChain还拥有很多应用案例，帮助我们了解如何将这些模块化组件组合成链式方式，以形成更多端到端的应用程序 。
+
+在本课程中，我们将介绍LandChain的常见组件，并讨论模型、提示（使模型执行操作的方式）、索引（处理数据的方式），然后将讨论链式（端到端用例）以及令人激动的代理（使用模型作为推理引擎的端到端应用）。
+
+ 
+
+### 🌹致谢课程重要贡献者
+
+最后特别感谢Ankush Gholar（LandChain的联合作者）、Geoff Ladwig,、Eddy Shyu 以及 Diala Ezzedine，他们也为课程内容投入了很多思考~ 
