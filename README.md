@@ -1,6 +1,6 @@
 ![figures/readme.png](https://github.com/datawhalechina/prompt-engineering-for-developers/blob/main/figures/readme.jpeg)
 
-# prompt-engineering-for-developers
+# 面向开发者的 LLM 入门课程
 
 ## 项目简介
 
@@ -98,17 +98,17 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
  
  **目录：**
 
-1. 简介 Introduction 
-2. 语言模型、规范与 Token 
-3. 评估输入——分类 
-4. 评估输入——监督 
-5. 处理输入——思维链推理
-6. 处理输入——链式提示
-7. 检查输出
-8. 端到端的问答系统
-9. 评估（上）——简单回答
-10. 评估（下）——复杂回答
-11. 总结
+1. 简介 Introduction @Sarai
+2. 模型，范式和 token Language Models, the Chat Format and Tokens @仲泰
+3. 检查输入-分类 Classification @诸世纪
+4. 检查输入-监督 Moderation @诸世纪
+5. 思维链推理 Chain of Thought Reasoning @万礼行
+6. 提示链 Chaining Prompts @万礼行
+7. 检查输入 Check Outputs @仲泰
+8. 评估（端到端系统）Evaluation @邹雨衡
+9. 评估（简单问答）Evaluation-part1 @陈志宏
+10. 评估（复杂问答）Evaluation-part2 @邹雨衡
+11. 总结 Conclusion @Sarai
   
  ### 三、使用 LangChain 开发应用程序
  
@@ -116,14 +116,14 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
  
  **目录：**
 
-1. 简介 Introduction 
-2. 模型、提示和解析器
-3. 存储
-4. 模型链
-5. 基于文档的问答
-6. 评估
-7. 代理
-8. 总结
+1. 简介 Introduction @Sarai
+2. 模型，提示和解析器 Models, Prompts and Output Parsers @Joye
+3. 存储 Memory @徐虎
+4. 模型链 Chains @徐虎
+5. 基于文档的问答 Question and Answer @苟晓攀
+6. 评估 Evaluation @苟晓攀
+7. 代理 Agent @Joye
+8. 总结 Conclusion @Sarai
   
 ### 四、Prompt 高级技巧（暂未完成）
 
@@ -149,8 +149,13 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 - [邹雨衡-项目负责人](https://github.com/nowadays0421)
 - [长琴](https://yam.gift/)（内容创作者-Datawhale成员-AI算法工程师）
 - [玉琳](https://github.com/Sophia-Huang)（内容创作者-Datawhale成员）
-- [万礼行](https://github.com/leason-wan)（视频翻译者）
-
+- [万礼行](https://github.com/leason-wan)（内容创作者-视频翻译者）
+- [仲泰](https://github.com/ztgg0228)（内容创作者）
+- [苟晓攀]（内容创作者-后端工程师）
+- [徐虎](https://github.com/xuhu0115)（内容创作者）
+- [Joye](https://Joyenjoye.com)（内容创作者-数据科学家）
+- [诸世纪](https://github.com/very-very-very)（内容创作者-算法工程师）
+- [Sarai]（内容创作者-AI应用爱好者）
 
 **其他**
 
