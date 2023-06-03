@@ -151,10 +151,11 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 - [玉琳](https://github.com/Sophia-Huang)（内容创作者-Datawhale成员）
 - [万礼行](https://github.com/leason-wan)（内容创作者-视频翻译者）
 - [仲泰](https://github.com/ztgg0228)（内容创作者）
-- 苟晓攀（内容创作者-后端工程师）
+- [魂兮](https://github.com/wisdom-pan)（内容创作者-前端工程师）
 - [徐虎](https://github.com/xuhu0115)（内容创作者）
 - [Joye](https://Joyenjoye.com)（内容创作者-数据科学家）
 - [诸世纪](https://github.com/very-very-very)（内容创作者-算法工程师）
+- [宋志学](https://github.com/KMnO4-zx)（内容创作者-Datawhale成员）
 - Sarai（内容创作者-AI应用爱好者）
 - 陈志宏（内容创作者）
 
