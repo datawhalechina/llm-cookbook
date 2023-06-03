@@ -146,7 +146,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 
 **核心贡献者**
 
-- [邹雨衡-项目负责人](https://github.com/nowadays0421)
+- [邹雨衡-项目负责人](https://github.com/nowadays0421)（对外经济贸易大学研究生）
 - [长琴](https://yam.gift/)（内容创作者-Datawhale成员-AI算法工程师）
 - [玉琳](https://github.com/Sophia-Huang)（内容创作者-Datawhale成员）
 - [万礼行](https://github.com/leason-wan)（内容创作者-视频翻译者）
