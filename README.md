@@ -156,6 +156,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 - [Joye](https://Joyenjoye.com)（内容创作者-数据科学家）
 - [诸世纪](https://github.com/very-very-very)（内容创作者-算法工程师）
 - Sarai（内容创作者-AI应用爱好者）
+- 陈志宏（内容创作者）
 
 **其他**
 
