@@ -106,7 +106,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 6. 提示链 Chaining Prompts @万礼行
 7. 检查输入 Check Outputs @仲泰
 8. 评估（端到端系统）Evaluation @邹雨衡
-9. 评估（简单问答）Evaluation-part1 @陈志宏
+9. 评估（简单问答）Evaluation-part1 @陈志宏、邹雨衡
 10. 评估（复杂问答）Evaluation-part2 @邹雨衡
 11. 总结 Conclusion @Sarai
   
