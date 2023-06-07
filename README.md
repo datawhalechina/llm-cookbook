@@ -54,9 +54,7 @@
 
 **英文原版地址：[吴恩达关于大模型的系列课程](https://learn.deeplearning.ai)**
 
-**中文字幕视频地址：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web)**
-
-**中英双语字幕视频地址：[吴恩达 x OpenAI的Prompt Engineering课程中英双语字幕版](https://www.bilibili.com/video/BV1zX4y1m7tF?p=9&vd_source=e73e755723936dc6ecab976eaff821b5)**
+**双语字幕视频地址：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web)**
 
 **中英双语字幕下载：[《ChatGPT提示工程》非官方版中英双语字幕](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)**
 
