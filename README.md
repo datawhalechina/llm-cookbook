@@ -138,7 +138,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 
 ### 配套视频
 
-中文字幕视频：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web) @万礼行
+双语字幕视频：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web) @万礼行
 
 ## 致谢
 
@@ -160,8 +160,9 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 **其他**
 
 1. 特别感谢 [@Sm1les](https://github.com/Sm1les)、[@LSGOMYP](https://github.com/LSGOMYP) 对本项目的帮助与支持；
-2. 如果有任何想法可以联系我们 DataWhale 也欢迎大家多多提出 issue；
-3. 特别感谢以下为教程做出贡献的同学！
+2. 感谢 [GithubDaily](https://github.com/GitHubDaily) 提供的双语字幕；
+3. 如果有任何想法可以联系我们 DataWhale 也欢迎大家多多提出 issue；
+4. 特别感谢以下为教程做出贡献的同学！
 
 <a href="https://github.com/datawhalechina/prompt-engineering-for-developers/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=datawhalechina/prompt-engineering-for-developers" />
