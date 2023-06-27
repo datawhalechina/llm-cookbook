@@ -113,21 +113,21 @@ def create_categories():
                 'Explanation for charge',
                 'Dispute a charge'],
       'Technical Support':[
-                'General troubleshooting'
+                'General troubleshooting',
                 'Device compatibility',
                 'Software updates'],
       'Account Management':[
-                'Password reset'
+                'Password reset',
                 'Update personal information',
                 'Close account',
                 'Account security'],
       'General Inquiry':[
-                'Product information'
+                'Product information',
                 'Pricing',
                 'Feedback',
                 'Speak to a human']
     }
-    
+
     with open(categories_file, 'w') as file:
         json.dump(categories_dict, file)
         
