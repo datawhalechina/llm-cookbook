@@ -4,7 +4,7 @@
 
 ### 目录
 1. 简介 Introduction @Sarai
-2. 模型，提示和解析器 Models, Prompts and Output Parsers @Joye
+2. 模型、提示和解析器 Models, Prompts and Output Parsers @Joye
 3. 存储 Memory @徐虎
 4. 模型链 Chains @徐虎
 5. 基于文档的问答 Question and Answer @苟晓攀
