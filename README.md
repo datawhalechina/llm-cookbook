@@ -184,7 +184,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 - [诸世纪](https://github.com/very-very-very)（内容创作者-算法工程师）
 - [宋志学](https://github.com/KMnO4-zx)（内容创作者-Datawhale成员）
 - Sarai（内容创作者-AI应用爱好者）
-- Puppet（内容创作者-教程订正成员）
+- Puppet（内容创作者）
 - 高立业（内容创作者-教程订正成员）
 - AaronZ（内容创作者-教程订正成员）
 
