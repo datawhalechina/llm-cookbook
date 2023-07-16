@@ -1,0 +1,20 @@
+# 使用 ChatGPT API 搭建系统
+
+## 简介
+
+欢迎来到课程《使用 ChatGPT API 搭建系统》👏🏻👏🏻
+
+本课程由吴恩达老师联合 OpenAI 开发，旨在指导开发者如何基于 ChatGPT 搭建完整的智能问答系统。
+
+### 📚 课程基本内容
+
+使用 ChatGPT 不仅仅是一个单一的 Prompt 或单一的模型调用，本课程将分享使用 LLM 构建复杂应用的最佳实践。
+
+本课程以构建客服助手为例，使用不同的 Prompt 链式调用语言模型，具体的 Prompt 选择将取决于上一次调用的输出结果，有时还需要从外部来源查找信息。
+
+本课程将围绕该主题，逐步了解应用程序内部的构建步骤，并分享在长期视角下系统评估和持续改进方面的最佳实践。
+
+### 🌹致谢课程重要贡献者
+
+感谢来自 OpenAI 团队的 Andrew Kondrick、Joe Palermo、Boris Power 和 Ted Sanders，
+以及来自 DeepLearning.ai 团队的 Geoff Ladwig、Eddie Shyu 和 Tommy Nelson。
