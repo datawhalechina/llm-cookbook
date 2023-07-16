@@ -146,8 +146,8 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 1. 简介 Introduction @Joye
 2. 加载文档 Document Loading @Joye
 3. 文档切割 Document Splitting @苟晓攀
-4. 向量数据库与词向量 Vectorstores and Embeddings @Puppet、仲泰
-5. 检索 Retrieval @Puppet
+4. 向量数据库与词向量 Vectorstores and Embeddings @刘伟鸿、仲泰
+5. 检索 Retrieval @刘伟鸿
 6. 问答 Question Answering @邹雨衡
 7. 聊天 Chat @高立业
 8. 总结 Summary @高立业
@@ -183,9 +183,9 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 - [仲泰](https://github.com/ztgg0228)（内容创作者-Datawhale成员）
 - [魂兮](https://github.com/wisdom-pan)（内容创作者-前端工程师）
 - [徐虎](https://github.com/xuhu0115)（内容创作者）
+- [刘伟鸿](https://github.com/Weihong-Liu)（内容创作者-江南大学非全研究生）
 - [诸世纪](https://github.com/very-very-very)（内容创作者-算法工程师）
 - [宋志学](https://github.com/KMnO4-zx)（内容创作者-Datawhale成员）
-- Puppet（内容创作者）
 - Sarai（内容创作者-AI应用爱好者）
 
 
