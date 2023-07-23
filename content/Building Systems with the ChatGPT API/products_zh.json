@@ -1,0 +1,336 @@
+{
+    "TechPro Ultrabook": {
+        "名称": "TechPro 超极本",
+        "类别": "电脑和笔记本",
+        "品牌": "TechPro",
+        "型号": "TP-UB100",
+        "保修期": "1 year",
+        "评分": 4.5,
+        "特色": ["13.3-inch display", "8GB RAM", "256GB SSD", "Intel Core i5 处理器"],
+        "描述": "一款时尚轻便的超极本，适合日常使用。",
+        "价格": 799.99
+    },
+    "BlueWave Gaming Laptop": {
+        "名称": "BlueWave 游戏本",
+        "类别": "电脑和笔记本",
+        "品牌": "BlueWave",
+        "型号": "BW-GL200",
+        "保修期": "2 years",
+        "评分": 4.7,
+        "特色": ["15.6-inch display", "16GB RAM", "512GB SSD", "NVIDIA GeForce RTX 3060"],
+        "描述": "一款高性能的游戏笔记本电脑，提供沉浸式体验。",
+        "价格": 1199.99
+    },
+    "PowerLite Convertible": {
+        "名称": "PowerLite Convertible",
+        "类别": "电脑和笔记本",
+        "品牌": "PowerLite",
+        "型号": "PL-CV300",
+        "保修期": "1 year",
+        "评分": 4.3,
+        "特色": ["14-inch touchscreen", "8GB RAM", "256GB SSD", "360-degree hinge"],
+        "描述": "一款多功能的可转换笔记本电脑，具有灵敏的触摸屏。",
+        "价格": 699.99
+    },
+    "TechPro Desktop": {
+        "名称": "TechPro Desktop",
+        "类别": "电脑和笔记本",
+        "品牌": "TechPro",
+        "型号": "TP-DT500",
+        "保修期": "1 year",
+        "评分": 4.4,
+        "特色": ["Intel Core i7 processor", "16GB RAM", "1TB HDD", "NVIDIA GeForce GTX 1660"],
+        "描述": "一款功能强大的台式电脑，适用于工作和娱乐。",
+        "价格": 999.99
+    },
+    "BlueWave Chromebook": {
+        "名称": "BlueWave Chromebook",
+        "类别": "电脑和笔记本",
+        "品牌": "BlueWave",
+        "型号": "BW-CB100",
+        "保修期": "1 year",
+        "评分": 4.1,
+        "特色": ["11.6-inch display", "4GB RAM", "32GB eMMC", "Chrome OS"],
+        "描述": "一款紧凑而价格实惠的Chromebook，适用于日常任务。",
+        "价格": 249.99
+    },
+    "SmartX ProPhone": {
+        "名称": "SmartX ProPhone",
+        "类别": "智能手机和配件",
+        "品牌": "SmartX",
+        "型号": "SX-PP10",
+        "保修期": "1 year",
+        "评分": 4.6,
+        "特色": ["6.1-inch display", "128GB storage", "12MP dual camera", "5G"],
+        "描述": "一款拥有先进摄像功能的强大智能手机。",
+        "价格": 899.99
+    },
+    "MobiTech PowerCase": {
+        "名称": "MobiTech PowerCase",
+        "类别": "专业手机",
+        "品牌": "MobiTech",
+        "型号": "MT-PC20",
+        "保修期": "1 year",
+        "评分": 4.3,
+        "特色": ["5000mAh battery", "Wireless charging", "Compatible with SmartX ProPhone"],
+        "描述": "一款带有内置电池的保护手机壳，可延长使用时间。",
+        "价格": 59.99
+    },
+    "SmartX MiniPhone": {
+        "名称": "SmartX MiniPhone",
+        "类别": "专业手机",
+        "品牌": "SmartX",
+        "型号": "SX-MP5",
+        "保修期": "1 year",
+        "评分": 4.2,
+        "特色": ["4.7-inch display", "64GB storage", "8MP camera", "4G"],
+        "描述": "一款紧凑而价格实惠的智能手机，适用于基本任务。",
+        "价格": 399.99
+    },
+    "MobiTech Wireless Charger": {
+        "名称": "MobiTech Wireless Charger",
+        "类别": "专业手机",
+        "品牌": "MobiTech",
+        "型号": "MT-WC10",
+        "保修期": "1 year",
+        "评分": 4.5,
+        "特色": ["10W fast charging", "Qi-compatible", "LED indicator", "Compact design"],
+        "描述": "一款方便的无线充电器，使工作区域整洁无杂物。",
+        "价格": 29.99
+    },
+    "SmartX EarBuds": {
+        "名称": "SmartX EarBuds",
+        "类别": "专业手机",
+        "品牌": "SmartX",
+        "型号": "SX-EB20",
+        "保修期": "1 year",
+        "评分": 4.4,
+        "特色": ["True wireless", "Bluetooth 5.0", "Touch controls", "24-hour battery life"],
+        "描述": "通过这些舒适的耳塞体验真正的无线自由。",
+        "价格": 99.99
+    },
+
+    "CineView 4K TV": {
+        "名称": "CineView 4K TV",
+        "类别": "电视和家庭影院系统",
+        "品牌": "CineView",
+        "型号": "CV-4K55",
+        "保修期": "2 years",
+        "评分": 4.8,
+        "特色": ["55-inch display", "4K resolution", "HDR", "Smart TV"],
+        "描述": "一款色彩鲜艳、智能功能丰富的惊艳4K电视。",
+        "价格": 599.99
+    },
+    "SoundMax Home Theater": {
+        "名称": "SoundMax Home Theater",
+        "类别": "电视和家庭影院系统",
+        "品牌": "SoundMax",
+        "型号": "SM-HT100",
+        "保修期": "1 year",
+        "评分": 4.4,
+        "特色": ["5.1 channel", "1000W output", "Wireless subwoofer", "Bluetooth"],
+        "描述": "一款强大的家庭影院系统，提供沉浸式音频体验。",
+        "价格": 399.99
+    },
+    "CineView 8K TV": {
+        "名称": "CineView 8K TV",
+        "类别": "电视和家庭影院系统",
+        "品牌": "CineView",
+        "型号": "CV-8K65",
+        "保修期": "2 years",
+        "评分": 4.9,
+        "特色": ["65-inch display", "8K resolution", "HDR", "Smart TV"],
+        "描述": "通过这款惊艳的8K电视，体验未来。",
+        "价格": 2999.99
+    },
+    "SoundMax Soundbar": {
+        "名称": "SoundMax Soundbar",
+        "类别": "电视和家庭影院系统",
+        "品牌": "SoundMax",
+        "型号": "SM-SB50",
+        "保修期": "1 year",
+        "评分": 4.3,
+        "特色": ["2.1 channel", "300W output", "Wireless subwoofer", "Bluetooth"],
+        "描述": "使用这款时尚而功能强大的声音，升级您电视的音频体验。",
+        "价格": 199.99
+    },
+    "CineView OLED TV": {
+        "名称": "CineView OLED TV",
+        "类别": "电视和家庭影院系统",
+        "品牌": "CineView",
+        "型号": "CV-OLED55",
+        "保修期": "2 years",
+        "评分": 4.7,
+        "特色": ["55-inch display", "4K resolution", "HDR", "Smart TV"],
+        "描述": "通过这款OLED电视，体验真正的五彩斑斓。",
+        "价格": 1499.99
+    },
+
+    "GameSphere X": {
+        "名称": "GameSphere X",
+        "类别": "游戏机和配件",
+        "品牌": "GameSphere",
+        "型号": "GS-X",
+        "保修期": "1 year",
+        "评分": 4.9,
+        "特色": ["4K gaming", "1TB storage", "Backward compatibility", "Online multiplayer"],
+        "描述": "一款下一代游戏机，提供终极游戏体验。",
+        "价格": 499.99
+    },
+    "ProGamer Controller": {
+        "名称": "ProGamer Controller",
+        "类别": "游戏机和配件",
+        "品牌": "ProGamer",
+        "型号": "PG-C100",
+        "保修期": "1 year",
+        "评分": 4.2,
+        "特色": ["Ergonomic design", "Customizable buttons", "Wireless", "Rechargeable battery"],
+        "描述": "一款高品质的游戏手柄，提供精准和舒适的操作。",
+        "价格": 59.99
+    },
+    "GameSphere Y": {
+        "名称": "GameSphere Y",
+        "类别": "游戏机和配件",
+        "品牌": "GameSphere",
+        "型号": "GS-Y",
+        "保修期": "1 year",
+        "评分": 4.8,
+        "特色": ["4K gaming", "500GB storage", "Backward compatibility", "Online multiplayer"],
+        "描述": "一款体积紧凑、性能强劲的游戏机。",
+        "价格": 399.99
+    },
+    "ProGamer Racing Wheel": {
+        "名称": "ProGamer Racing Wheel",
+        "类别": "游戏机和配件",
+        "品牌": "ProGamer",
+        "型号": "PG-RW200",
+        "保修期": "1 year",
+        "评分": 4.5,
+        "特色": ["Force feedback", "Adjustable pedals", "Paddle shifters", "Compatible with GameSphere X"],
+        "描述": "使用这款逼真的赛车方向盘，提升您的赛车游戏体验。",
+        "价格": 249.99
+    },
+    "GameSphere VR Headset": {
+        "名称": "GameSphere VR Headset",
+        "类别": "游戏机和配件",
+        "品牌": "GameSphere",
+        "型号": "GS-VR",
+        "保修期": "1 year",
+        "评分": 4.6,
+        "特色": ["Immersive VR experience", "Built-in headphones", "Adjustable headband", "Compatible with GameSphere X"],
+        "描述": "通过这款舒适的VR头戴设备，进入虚拟现实的世界。",
+        "价格": 299.99
+    },
+
+    "AudioPhonic Noise-Canceling Headphones": {
+        "名称": "AudioPhonic Noise-Canceling Headphones",
+        "类别": "音频设备",
+        "品牌": "AudioPhonic",
+        "型号": "AP-NC100",
+        "保修期": "1 year",
+        "评分": 4.6,
+        "特色": ["Active noise-canceling", "Bluetooth", "20-hour battery life", "Comfortable fit"],
+        "描述": "通过这款降噪耳机，体验沉浸式的音效。",
+        "价格": 199.99
+    },
+    "WaveSound Bluetooth Speaker": {
+        "名称": "WaveSound Bluetooth Speaker",
+        "类别": "音频设备",
+        "品牌": "WaveSound",
+        "型号": "WS-BS50",
+        "保修期": "1 year",
+        "评分": 4.5,
+        "特色": ["Portable", "10-hour battery life", "Water-resistant", "Built-in microphone"],
+        "描述": "一款紧凑而多用途的蓝牙音箱，适用于随时随地收听音乐。",
+        "价格": 49.99
+    },
+    "AudioPhonic True Wireless Earbuds": {
+        "名称": "AudioPhonic True Wireless Earbuds",
+        "类别": "音频设备",
+        "品牌": "AudioPhonic",
+        "型号": "AP-TW20",
+        "保修期": "1 year",
+        "评分": 4.4,
+        "特色": ["True wireless", "Bluetooth 5.0", "Touch controls", "18-hour battery life"],
+        "描述": "通过这款舒适的真无线耳塞，无需线缆即可享受音乐。",
+        "价格": 79.99
+    },
+    "WaveSound Soundbar": {
+        "名称": "WaveSound Soundbar",
+        "类别": "音频设备",
+        "品牌": "WaveSound",
+        "型号": "WS-SB40",
+        "保修期": "1 year",
+        "评分": 4.3,
+        "特色": ["2.0 channel", "80W output", "Bluetooth", "Wall-mountable"],
+        "描述": "使用这款纤薄而功能强大的声音吧，升级您电视的音频体验。",
+        "价格": 99.99
+    },
+    "AudioPhonic Turntable": {
+        "名称": "AudioPhonic Turntable",
+        "类别": "音频设备",
+        "品牌": "AudioPhonic",
+        "型号": "AP-TT10",
+        "保修期": "1 year",
+        "评分": 4.2,
+        "特色": ["3-speed", "Built-in speakers", "Bluetooth", "USB recording"],
+        "描述": "通过这款现代化的唱片机，重拾您的黑胶唱片收藏。",
+        "价格": 149.99
+    },
+
+    "FotoSnap DSLR Camera": {
+        "名称": "FotoSnap DSLR Camera",
+        "类别": "相机和摄像机",
+        "品牌": "FotoSnap",
+        "型号": "FS-DSLR200",
+        "保修期": "1 year",
+        "评分": 4.7,
+        "特色": ["24.2MP sensor", "1080p video", "3-inch LCD", "Interchangeable lenses"],
+        "描述": "使用这款多功能的单反相机，捕捉惊艳的照片和视频。",
+        "价格": 599.99
+    },
+    "ActionCam 4K": {
+        "名称": "ActionCam 4K",
+        "类别": "相机和摄像机",
+        "品牌": "ActionCam",
+        "型号": "AC-4K",
+        "保修期": "1 year",
+        "评分": 4.4,
+        "特色": ["4K video", "Waterproof", "Image stabilization", "Wi-Fi"],
+        "描述": "使用这款坚固而紧凑的4K运动相机，记录您的冒险旅程。",
+        "价格": 299.99
+    },
+    "FotoSnap Mirrorless Camera": {
+        "名称": "FotoSnap Mirrorless Camera",
+        "类别": "相机和摄像机",
+        "品牌": "FotoSnap",
+        "型号": "FS-ML100",
+        "保修期": "1 year",
+        "评分": 4.6,
+        "特色": ["20.1MP sensor", "4K video", "3-inch touchscreen", "Interchangeable lenses"],
+        "描述": "一款具有先进功能的小巧轻便的无反相机。",
+        "价格": 799.99
+    },
+    "ZoomMaster Camcorder": {
+        "名称": "ZoomMaster Camcorder",
+        "类别": "相机和摄像机",
+        "品牌": "ZoomMaster",
+        "型号": "ZM-CM50",
+        "保修期": "1 year",
+        "评分": 4.3,
+        "特色": ["1080p video", "30x optical zoom", "3-inch LCD", "Image stabilization"],
+        "描述": "使用这款易于使用的摄像机，捕捉生活的瞬间。",
+        "价格": 249.99
+    },
+    "FotoSnap Instant Camera": {
+        "名称": "FotoSnap Instant Camera",
+        "类别": "相机和摄像机",
+        "品牌": "FotoSnap",
+        "型号": "FS-IC10",
+        "保修期": "1 year",
+        "评分": 4.1,
+        "特色": ["Instant prints", "Built-in flash", "Selfie mirror", "Battery-powered"],
+        "描述": "使用这款有趣且便携的即时相机，创造瞬间回忆。",
+        "价格": 69.99
+    }
+}
