@@ -1,0 +1,227 @@
+wandb_version: 1
+
+_items:
+  desc: null
+  value:
+    num_samples: 30
+    timesteps: 500
+    beta1: 0.0001
+    beta2: 0.02
+    n_feat: 64
+    n_cfeat: 5
+    height: 16
+    batch_size: 100
+    n_epoch: 32
+    lrate: 0.001
+    _wandb: {}
+_locked:
+  desc: null
+  value: {}
+_users:
+  desc: null
+  value: {}
+_users_inv:
+  desc: null
+  value: {}
+_users_cnt:
+  desc: null
+  value: 0
+_callback:
+  desc: null
+  value: wandb.sdk.wandb_run.Run._config_callback
+_settings:
+  desc: null
+  value:
+    _args: null
+    _aws_lambda: false
+    _async_upload_concurrency_limit: null
+    _cli_only_mode: null
+    _colab: false
+    _cuda: null
+    _disable_meta: null
+    _disable_service: false
+    _disable_setproctitle: false
+    _disable_stats: null
+    _disable_viewer: null
+    _except_exit: null
+    _executable: /Users/wisdom-pan/opt/anaconda3/envs/gpt/bin/python
+    _extra_http_headers: null
+    _file_stream_timeout_seconds: 60.0
+    _flow_control_custom: false
+    _flow_control_disabled: false
+    _internal_check_process: 8.0
+    _internal_queue_timeout: 2.0
+    _ipython: false
+    _jupyter: true
+    _jupyter_name: null
+    _jupyter_path: null
+    _jupyter_root: null
+    _kaggle: false
+    _live_policy_rate_limit: null
+    _live_policy_wait_time: null
+    _log_level: 10
+    _network_buffer: null
+    _noop: false
+    _notebook: true
+    _offline: false
+    _sync: false
+    _os: macOS-13.0-arm64-arm-64bit
+    _platform: darwin
+    _python: 3.9.16
+    _runqueue_item_id: null
+    _require_nexus: false
+    _save_requirements: true
+    _service_transport: null
+    _service_wait: 30.0
+    _start_datetime: '20230816_235028'
+    _start_time: 1692201028.057118
+    _stats_pid: 48276
+    _stats_sample_rate_seconds: 2.0
+    _stats_samples_to_average: 15
+    _stats_join_assets: true
+    _stats_neuron_monitor_config_path: null
+    _stats_open_metrics_endpoints: null
+    _stats_open_metrics_filters:
+    - .*
+    _tmp_code_dir: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/run-20230816_235028-47bll5r6/tmp/code
+    _tracelog: null
+    _unsaved_keys: null
+    _windows: false
+    allow_val_change: null
+    anonymous: allow
+    api_key: null
+    azure_account_url_to_access_key: null
+    base_url: https://api.wandb.ai
+    code_dir: null
+    config_paths: null
+    console: wrap
+    deployment: cloud
+    disable_code: null
+    disable_git: false
+    disable_hints: null
+    disable_job_creation: false
+    disabled: false
+    docker: null
+    email: 1789244288@qq.com
+    entity: xiaopan
+    files_dir: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/run-20230816_235028-47bll5r6/files
+    force: null
+    git_commit: 6a0ba4ce2c7538e69c353b5460263271683bc299
+    git_remote: origin
+    git_remote_url: git@github.com:wisdom-pan/prompt-engineering-for-developers.git
+    git_root: null
+    heartbeat_seconds: 30
+    host: wisdomPan
+    ignore_globs: []
+    init_timeout: 60.0
+    is_local: false
+    job_name: null
+    job_source: null
+    label_disable: null
+    launch: null
+    launch_config_path: null
+    log_dir: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/run-20230816_235028-47bll5r6/logs
+    log_internal: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/run-20230816_235028-47bll5r6/logs/debug-internal.log
+    log_symlink_internal: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/debug-internal.log
+    log_symlink_user: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/debug.log
+    log_user: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/run-20230816_235028-47bll5r6/logs/debug.log
+    login_timeout: null
+    mode: online
+    notebook_name: null
+    problem: fatal
+    program: <python with no main file>
+    program_relpath: null
+    project: dlai_sprite_diffusion
+    project_url: https://wandb.ai/xiaopan/dlai_sprite_diffusion
+    quiet: null
+    reinit: null
+    relogin: null
+    resume: null
+    resume_fname: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/wandb-resume.json
+    resumed: false
+    root_dir: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio
+    run_group: null
+    run_id: 47bll5r6
+    run_job_type: train
+    run_mode: run
+    run_name: lyric-surf-2
+    run_notes: null
+    run_tags: null
+    run_url: https://wandb.ai/xiaopan/dlai_sprite_diffusion/runs/47bll5r6
+    sagemaker_disable: null
+    save_code: null
+    settings_system: /Users/wisdom-pan/.config/wandb/settings
+    settings_workspace: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/settings
+    show_colors: null
+    show_emoji: null
+    show_errors: true
+    show_info: true
+    show_warnings: true
+    silent: false
+    start_method: null
+    strict: null
+    summary_errors: null
+    summary_timeout: 60
+    summary_warnings: 5
+    sweep_id: null
+    sweep_param_path: null
+    sweep_url: ''
+    symlink: true
+    sync_dir: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/run-20230816_235028-47bll5r6
+    sync_file: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/run-20230816_235028-47bll5r6/run-47bll5r6.wandb
+    sync_symlink_latest: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/latest-run
+    system_sample: 15
+    system_sample_seconds: 2
+    table_raise_on_max_row_limit_exceeded: false
+    timespec: '20230816_235028'
+    tmp_dir: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/run-20230816_235028-47bll5r6/tmp
+    username: wisdom-pan
+    wandb_dir: /Users/wisdom-pan/Downloads/deep_learning/projects/prompt-engineering-for-developers-1/content/Building
+      Generative AI Applications with Gradio/wandb/
+_artifact_callback:
+  desc: null
+  value: wandb.sdk.wandb_run.Run._config_artifact_callback
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.16
+    cli_version: 0.15.8
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1692202926.577614
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      - 105
+      2:
+      - 1
+      - 41
+      - 55
+      - 105
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.9.16
+      5: 0.15.8
+      8:
+      - 1
+      - 4
+      - 5
