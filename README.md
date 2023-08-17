@@ -62,6 +62,8 @@
 
     · 自动 Prompt 工程;
 
+**在线阅读地址：[面向开发者的 LLM 入门课程](https://datawhalechina.github.io/prompt-engineering-for-developers/)**
+
 **英文原版地址：[吴恩达关于大模型的系列课程](https://learn.deeplearning.ai)**
 
 **双语字幕视频地址：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web)**
