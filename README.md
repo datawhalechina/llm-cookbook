@@ -24,10 +24,13 @@
 
 **目录结构说明：**
 
-  content：基于原课程复现的双语版代码，可运行的 Notebook，更新频率最高，更新速度最快。
-  docs：文字教程版在线阅读源码，适合阅读的 md。
-  figures：图片文件。
-  pdf-code：文字教程版源码，适合阅读的 Notebook。
+    content：基于原课程复现的双语版代码，可运行的 Notebook，更新频率最高，更新速度最快。
+    
+    docs：文字教程版在线阅读源码，适合阅读的 md。
+    
+    figures：图片文件。
+    
+    pdf-code：文字教程版源码，适合阅读的 Notebook。
 
 ## 项目意义
 
