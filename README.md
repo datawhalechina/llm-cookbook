@@ -22,6 +22,13 @@
 
 **中英双语字幕下载：[《ChatGPT提示工程》非官方版中英双语字幕](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)**
 
+**目录结构说明：**
+
+  content：基于原课程复现的双语版代码，可运行的 Notebook，更新频率最高，更新速度最快。
+  docs：文字教程版在线阅读源码，适合阅读的 md。
+  figures：图片文件。
+  pdf-code：文字教程版源码，适合阅读的 Notebook。
+
 ## 项目意义
 
 LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM 提供的 API 快速、便捷地开发一些具备更强能力、集成LLM 的应用，来便捷地实现一些更新颖、更实用的能力，是一个急需学习的重要能力。
