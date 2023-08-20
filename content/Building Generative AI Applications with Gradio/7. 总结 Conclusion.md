@@ -1,0 +1,7 @@
+# 第七章 总结
+
+希望这只是您使用 Gradio 旅程的开始。
+
+## 💪🏻 展望
+
+您可以探索 Gradio 的所有功能，并加入充满活力的[开源社区](https://discuss.huggingface.co/)。一旦您有了想与世界分享的应用程序，您就可以使用 Gradio。Hugging Face 提供了一个名为[Spaces](https://huggingface.co/spaces)的平台， 您可以在这里部署它们。很期待看到您的作品。
