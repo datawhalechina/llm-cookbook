@@ -199,6 +199,10 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 
 Made with [contrib.rocks](https://contrib.rocks).
 
+## Star History
+
+![](figures/star-history-2023828.png)
+
 ## 关注我们
 
 <div align=center>
