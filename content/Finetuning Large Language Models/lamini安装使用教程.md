@@ -1,4 +1,4 @@
-本课程中我们会看到很多`from llama import BasicModelRunner`这样的代码，可能很多同学以为要安装的`llama`库，其实不然，<b>我们要安装的是`lamini`库</b>，`llama`只是`lamini`库的一个子集。以下为`lamini`库的安装和使用说明。
+本课程中我们会看到很多`from llama import BasicModelRunner`这样的代码，可能很多同学以为要安装`llama`库，其实不然，<b>我们要安装的是`lamini`库</b>，`llama`只是`lamini`库的一个子集。以下为`lamini`库的安装和使用说明。
 
 ## 安装
 `lamini`库的安装非常简单，只需要执行以下命令即可：
@@ -6,12 +6,12 @@
 `pip install lamini`
 
 ## 注册
-接下来我们需要去[ lamini 官网](https://www.lamini.ai/)注册一个账号获取api key，才能使用`lamini`库的全部功能。
-![lamini官网](./images/lamini官网.png)
+接下来我们需要去[ lamini官网](https://www.lamini.ai/)注册一个账号获取api key，才能使用`lamini`库的全部功能。
+![lamini官网](../../figures/Finetuning%20Large%20Language%20Models/lamini官网.png)
 
 账号注册可以使用谷歌邮箱（默认）或者其他邮箱。注册完成后点击官网左上角的`Account`即可看到自己的 api key 以及剩余额度。
 
-![lamini官网](./images/lamini官网_apikey.png)
+![lamini官网](../../figures/Finetuning%20Large%20Language%20Models/lamini官网_apikey.png)
 
 ## 使用
 ### 1. 默认方式
