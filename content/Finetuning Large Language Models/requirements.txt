@@ -1,0 +1,4 @@
+lamini==0.0.21
+transformers==4.32.1
+# torch==2.0.0
+datasets==2.14.3
