@@ -201,7 +201,7 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 ## Star History
 
-![](figures/star-history-2023828.png)
+![Star History](https://star-history.com/#datawhalechina/prompt-engineering-for-developers&Date)
 
 ## 关注我们
 
