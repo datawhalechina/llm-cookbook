@@ -3,64 +3,20 @@
 # 面向开发者的 LLM 入门课程
 
 ## 项目简介
-123123
-一个中文版的大模型入门教程，围绕吴恩达老师的大模型系列课程展开，主要包括：
 
-一、吴恩达《ChatGPT Prompt Engineering for Developers》课程中文版，主要内容为指导开发者如何构建 Prompt 并基于 OpenAI API 构建新的、基于 LLM 的应用，包括：
+本项目是一个面向开发者的 LLM 入门教程，基于吴恩达老师大模型系列课程内容，将原课程内容翻译为中文并复现其范例代码，实现中文 Prompt，指导国内开发者如何基于 LLM 快速、高效开发具备强大能力的应用程序。本项目的主要内容包括：
 
-    · 书写 Prompt 的原则;
+1. 面向开发者的 Prompt Engineering。基于吴恩达老师《ChatGPT Prompt Engineering for Developers》课程打造，面向入门 LLM 的开发者，深入浅出地介绍了对于开发者，如何构造 Prompt 并基于 OpenAI 提供的 API 实现包括总结、推断、转换等多种常用功能，是入门 LLM 开发的第一步。
+2. 搭建基于 ChatGPT 的问答系统。基于吴恩达老师《Building Systems with the ChatGPT API》课程打造，指导开发者如何基于 ChatGPT 提供的 API 开发一个完整的、全面的智能问答系统。通过代码实践，实现了基于 ChatGPT 开发问答系统的全流程，介绍了基于大模型开发的新范式，是大模型开发的实践基础。
+3. 使用 LangChain 开发应用程序。基于吴恩达老师《LangChain for LLM Application Development》课程打造，对 LangChain 展开深入介绍，帮助学习者了解如何使用 LangChain，并基于 LangChain 开发完整的、具备强大能力的应用程序。
+4. 使用 LangChain 访问个人数据。基于吴恩达老师《LangChain Chat with Your Data》课程打造，深入拓展 LangChain 提供的个人数据访问能力，指导开发者如何使用 LangChain 开发能够访问用户个人数据、提供个性化服务的大模型应用。
+5. 使用 Gradio 搭建生成式 AI 应用。基于吴恩达老师《Building Generative AI Applications with Gradio》课程打造，指导开发者如何使用 Gradio 通过 Python 接口程序快速、高效地为生成式 AI 构建用户界面。
+6. 评估改进生成式 AI。基于吴恩达老师《Evaluating and Debugging Generative AI》课程打造，结合 wandb，提供一套系统化的方法和工具，帮助开发者有效地跟踪和调试生成式 AI 模型。
+7. Prompt 高级技巧（尚未完成）。原创内容，介绍包括思维链、模板、代理、自动 Prompt 工程等高级 Prompt 技巧，帮助开发者进一步挖掘 LLM 潜力。
 
-    · 文本总结（如总结用户评论）；
+**在线阅读地址：[面向开发者的 LLM 入门课程-在线阅读](https://datawhalechina.github.io/prompt-engineering-for-developers/)**
 
-    · 文本推断（如情感分类、主题提取）；
-
-    · 文本转换（如翻译、自动纠错）；
-
-    · 扩展（如书写邮件）;
-
-二、吴恩达《Building Systems with the ChatGPT API》课程中文版，主要内容为在 Prompt Engineering 课程的基础上，指导开发者如何基于 ChatGPT 提供的 API 开发一个完整的、全面的智能问答系统，包括：
-
-    · 使用大语言模型的基本规范；
-    
-    · 通过分类与监督评估输入；
-    
-    · 通过思维链推理及链式提示处理输入；
-    
-    · 检查并评估系统输出；
-    
-三、吴恩达《LangChain for LLM Application Development》课程中文版，主要内容为指导开发者如何结合工具 LangChain 使用 ChatGPT API 来搭建基于 LLM 的应用程序，包括：
-
-    · 模型、提示和解析器；
-    
-    · 应用程序所需要用到的存储；
-    
-    · 搭建模型链；
-    
-    · 基于文档的问答系统；
-    
-    · 评估与代理；
-
-四、吴恩达《LangChain Chat With your Data》课程中文版，主要内容为在 LangChain 应用开发课程基础上，讲解如何使用 LangChain 来整合自己的私有数据，包括：
-
-    · 加载并切割本地文档；
-
-    · 向量数据库与词向量；
-
-    · 检索回答；
-
-    · 基于私有数据的问答与聊天；
-
-五、（制作中）进阶的 Prompt 高级技巧，包括：
-
-    · 上下文学习;
-
-    · 思维链;
-
-    · Prompt 模板;
-
-    · 对抗性提示;
-
-    · 自动 Prompt 工程;
+**PDF下载地址：[面向开发者的 LLM 入门教程-PDF](https://github.com/datawhalechina/prompt-engineering-for-developers/releases)**
 
 **英文原版地址：[吴恩达关于大模型的系列课程](https://learn.deeplearning.ai)**
 
@@ -68,11 +24,21 @@
 
 **中英双语字幕下载：[《ChatGPT提示工程》非官方版中英双语字幕](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)**
 
+**目录结构说明：**
+
+    content：基于原课程复现的双语版代码，可运行的 Notebook，更新频率最高，更新速度最快。
+    
+    docs：文字教程版在线阅读源码，适合阅读的 md。
+    
+    figures：图片文件。
+    
+    pdf-code：文字教程版源码，适合阅读的 Notebook。
+
 ## 项目意义
 
 LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM 提供的 API 快速、便捷地开发一些具备更强能力、集成LLM 的应用，来便捷地实现一些更新颖、更实用的能力，是一个急需学习的重要能力。
 
-由吴恩达老师与 OpenAI 合作推出的大模型系列教程，从大模型时代开发者的基础技能出发，深入浅出地介绍了如何基于大模型 API、LangChain 架构快速开发结合大模型强大能力的应用。其中，《Prompt Engineering for Developers》教程面向入门 LLM 的开发者，深入浅出地介绍了对于开发者，如何构造 Prompt 并基于 OpenAI 提供的 API 实现包括总结、推断、转换等多种常用功能，是入门 LLM 开发的经典教程；《Building Systems with the ChatGPT API》教程面向想要基于 LLM 开发应用程序的开发者，简洁有效而又系统全面地介绍了如何基于 ChatGPT API 打造完整的对话系统；《LangChain for LLM Application Development》教程结合经典大模型开源框架 LangChain，介绍了如何基于 LangChain 框架开发具备实用功能、能力全面的应用程序，《LangChain Chat With Your Data》教程则在此基础上进一步介绍了如何使用 LangChain 架构结合个人私有数据开发个性化大模型应用。
+由吴恩达老师与 OpenAI 合作推出的大模型系列教程，从大模型时代开发者的基础技能出发，深入浅出地介绍了如何基于大模型 API、LangChain 架构快速开发结合大模型强大能力的应用。其中，《Prompt Engineering for Developers》教程面向入门 LLM 的开发者，深入浅出地介绍了对于开发者，如何构造 Prompt 并基于 OpenAI 提供的 API 实现包括总结、推断、转换等多种常用功能，是入门 LLM 开发的经典教程；《Building Systems with the ChatGPT API》教程面向想要基于 LLM 开发应用程序的开发者，简洁有效而又系统全面地介绍了如何基于 ChatGPT API 打造完整的对话系统；《LangChain for LLM Application Development》教程结合经典大模型开源框架 LangChain，介绍了如何基于 LangChain 框架开发具备实用功能、能力全面的应用程序，《LangChain Chat With Your Data》教程则在此基础上进一步介绍了如何使用 LangChain 架构结合个人私有数据开发个性化大模型应用；《Building Generative AI Applications with Gradio》、《Evaluating and Debugging Generative AI》教程分别介绍了两个实用工具 Gradio 与 W&B，指导开发者如何结合这两个工具来打造、评估生成式 AI 应用。
 
 上述教程非常适用于开发者学习以开启基于 LLM 实际搭建应用程序之路。因此，我们将该系列课程翻译为中文，并复现其范例代码，也为其中一个视频增加了中文字幕，支持国内中文学习者直接使用，以帮助中文学习者更好地学习 LLM 开发；我们也同时实现了效果大致相当的中文 Prompt，支持学习者感受中文语境下 LLM 的学习使用，对比掌握多语言语境下的 Prompt 设计与 LLM 开发。未来，我们也将加入更多 Prompt 高级技巧，以丰富本课程内容，帮助开发者掌握更多、更巧妙的 Prompt 技能。
 
@@ -82,7 +48,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 
 ## 项目亮点
 
-《ChatGPT Prompt Engineering for Developers》、《Building Systems with the ChatGPT API》、《LangChain for LLM Application Development》、《LangChain Chat with Your Data》等教程作为由吴恩达老师与 OpenAI 联合推出的官方教程，在可预见的未来会成为 LLM 的重要入门教程，但是目前还只支持英文版且国内访问受限，打造中文版且国内流畅访问的教程具有重要意义；同时，GPT 对中文、英文具有不同的理解能力，本教程在多次对比、实验之后确定了效果大致相当的中文 Prompt，支持学习者研究如何提升 ChatGPT 在中文语境下的理解与生成能力。
+《ChatGPT Prompt Engineering for Developers》、《Building Systems with the ChatGPT API》等教程作为由吴恩达老师与 OpenAI 联合推出的官方教程，在可预见的未来会成为 LLM 的重要入门教程，但是目前还只支持英文版且国内访问受限，打造中文版且国内流畅访问的教程具有重要意义；同时，GPT 对中文、英文具有不同的理解能力，本教程在多次对比、实验之后确定了效果大致相当的中文 Prompt，支持学习者研究如何提升 ChatGPT 在中文语境下的理解与生成能力。
 
 ## 内容大纲
 
@@ -151,8 +117,36 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 6. 问答 Question Answering @邹雨衡
 7. 聊天 Chat @高立业
 8. 总结 Summary @高立业
+
+### 五、使用 Gradio 搭建生成式 AI 应用
+
+注：吴恩达《Building Generative AI Applications with Gradio》课程中文版
+
+ **目录：**
+
+1. 简介 Introduction @韩颐堃
+2. 图像总结应用 Image Captioning App @宋志学
+3. NLP 任务接口 NLP Tasks Interface @宋志学
+4. 图像生成应用 Image Generation App @小饭同学
+5. 描述与生成游戏 Describe and Generate Game @小饭同学
+6. 与任意 LLM 交流 Chat with Any LLM @韩颐堃
+7. 总结 Conclusion @韩颐堃
+
+### 六、评估改进生成式 AI
+
+注：吴恩达《Evaluating and Debugging Generative AI》课程中文版
+
+ **目录：**
+
+1. 简介 Introduction @高立业
+2. 测量权重和偏差 W&B @陈逸涵
+3. 训练一个扩散模型 Traing a Diffusion Model with W&B @苟晓攀
+4. 评估扩散模型 Evaluating Diffusion Models @苟晓攀
+5. 评估与追踪 LLM LLM Evaluation and Tracing with W&B @陈逸涵
+6. 微调语言模型 Finetuing a Language Model  @高立业
+7. 总结 Conclusion @高立业
   
-### 五、Prompt 高级技巧（暂未完成）
+### 七、Prompt 高级技巧（暂未完成）
 
 **目录：**
 
@@ -176,18 +170,20 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 - [邹雨衡-项目负责人](https://github.com/nowadays0421)（Datawhale成员-对外经济贸易大学研究生）
 - [长琴-项目发起人](https://yam.gift/)（内容创作者-Datawhale成员-AI算法工程师）
 - [玉琳-项目发起人](https://github.com/Sophia-Huang)（内容创作者-Datawhale成员）
-- [Joye](https://Joyenjoye.com)（内容创作者-数据科学家）
+- [徐虎-教程编撰者](https://github.com/xuhu0115)（内容创作者-Datawhale成员）
+- [刘伟鸿-教程编撰者](https://github.com/Weihong-Liu)（内容创作者-江南大学非全研究生）
+- [Joye-教程编撰者](https://Joyenjoye.com)（内容创作者-数据科学家）
 - [高立业](https://github.com/0-yy-0)（内容创作者-DataWhale成员-算法工程师）
-- [Zhang Yixin](https://github.com/YixinZ-NUS)（内容创作者-IT爱好者）
-- [万礼行](https://github.com/leason-wan)（内容创作者-视频翻译者）
-- [仲泰](https://github.com/ztgg0228)（内容创作者-Datawhale成员）
 - [魂兮](https://github.com/wisdom-pan)（内容创作者-前端工程师）
-- [徐虎](https://github.com/xuhu0115)（内容创作者）
-- [刘伟鸿](https://github.com/Weihong-Liu)（内容创作者-江南大学非全研究生）
-- [诸世纪](https://github.com/very-very-very)（内容创作者-算法工程师）
 - [宋志学](https://github.com/KMnO4-zx)（内容创作者-Datawhale成员）
+- [韩颐堃](https://github.com/YikunHan42)（内容创作者-Datawhale成员）
+- [陈逸涵](https://github.com/6forwater29) (内容创作者-Datawhale意向成员-AI爱好者)
+- [仲泰](https://github.com/ztgg0228)（内容创作者-Datawhale成员）
+- [万礼行](https://github.com/leason-wan)（内容创作者-视频翻译者）
+- [小饭同学](https://github.com/xinqi-fan)（内容创作者）
+- [诸世纪](https://github.com/very-very-very)（内容创作者-算法工程师）
+- [Zhang Yixin](https://github.com/YixinZ-NUS)（内容创作者-IT爱好者）
 - Sarai（内容创作者-AI应用爱好者）
-
 
 
 **其他**
@@ -202,6 +198,10 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
+
+## Star History
+
+![](figures/star-history-2023828.png)
 
 ## 关注我们
 
