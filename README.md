@@ -12,7 +12,8 @@
 4. 使用 LangChain 访问个人数据。基于吴恩达老师《LangChain Chat with Your Data》课程打造，深入拓展 LangChain 提供的个人数据访问能力，指导开发者如何使用 LangChain 开发能够访问用户个人数据、提供个性化服务的大模型应用。
 5. 使用 Gradio 搭建生成式 AI 应用。基于吴恩达老师《Building Generative AI Applications with Gradio》课程打造，指导开发者如何使用 Gradio 通过 Python 接口程序快速、高效地为生成式 AI 构建用户界面。
 6. 评估改进生成式 AI。基于吴恩达老师《Evaluating and Debugging Generative AI》课程打造，结合 wandb，提供一套系统化的方法和工具，帮助开发者有效地跟踪和调试生成式 AI 模型。
-7. Prompt 高级技巧（尚未完成）。原创内容，介绍包括思维链、模板、代理、自动 Prompt 工程等高级 Prompt 技巧，帮助开发者进一步挖掘 LLM 潜力。
+7. 微调大语言模型。基于吴恩达老师《Finetuning Large Language Model》课程打造，结合 lamini 框架，讲述如何便捷高效地在本地基于个人数据微调开源大语言模型。
+
 
 **在线阅读地址：[面向开发者的 LLM 入门课程-在线阅读](https://datawhalechina.github.io/prompt-engineering-for-developers/)**
 
@@ -23,6 +24,8 @@
 **双语字幕视频地址：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web)**
 
 **中英双语字幕下载：[《ChatGPT提示工程》非官方版中英双语字幕](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)**
+
+**视频讲解：[面向开发者的 Prompt Engineering 讲解（数字游民大会）](https://www.bilibili.com/video/BV1PN4y1k7y2/?spm_id_from=333.999.0.0)**
 
 **目录结构说明：**
 
@@ -146,18 +149,21 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 6. 微调语言模型 Finetuing a Language Model  @高立业
 7. 总结 Conclusion @高立业
   
-### 七、Prompt 高级技巧（暂未完成）
+### 七、微调大语言模型
+
+注：吴恩达《Finetuning Large Language Model》课程中文版
 
 **目录：**
 
-1. 上下文学习 In-context Learning @Noah
-2. 思维链 Chain of Thought @玉琳
-3. Prompt 模板 Template @万礼行
-4. Prompt 集成 Ensembling @杨同学
-5. 自我一致性 Self-consistency @朱宏民
-6. 对抗性提示 Adversarial Prompting @周辉池
-7. 可靠性 Reliability @成剑
-8. 自动 Prompt 工程 Automatic Prompt Engineer @邹雨衡
+1. 简介 Introduction @韩颐堃
+2. 为什么要微调 Why Finetune @宋志学
+3. 微调的应用场景 Where Finetuning Fits in @陈逸涵
+4. 指令微调 Instruction Tuning @韩颐堃
+5. 数据处理 Data Proparation @高立业
+6. 训练过程 Training Process @王熠明
+7. 评估迭代 Evalution and Itration @邓宇文
+8. 入门注意事项 Considration on Getting Started Now @韩颐堃
+9. 总结 Conclusion @韩颐堃
 
 ### 配套视频
 
@@ -180,6 +186,8 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 - [陈逸涵](https://github.com/6forwater29) (内容创作者-Datawhale意向成员-AI爱好者)
 - [仲泰](https://github.com/ztgg0228)（内容创作者-Datawhale成员）
 - [万礼行](https://github.com/leason-wan)（内容创作者-视频翻译者）
+- [王熠明](https://github.com/Bald0Wang)（内容创作者-Datawhale成员）
+- [邓宇文](https://github.com/GKDGKD)（内容创作者-Datawhale成员）
 - [小饭同学](https://github.com/xinqi-fan)（内容创作者）
 - [诸世纪](https://github.com/very-very-very)（内容创作者-算法工程师）
 - [Zhang Yixin](https://github.com/YixinZ-NUS)（内容创作者-IT爱好者）
