@@ -136,3 +136,6 @@ dmypy.json
 .pyre/
 
 .idea
+
+content/Advanced Retrieval for AI with Chroma/2. 基于嵌入的检索技术概述 Overview of embeddings-based retrieval.ipynb
+content/Advanced Retrieval for AI with Chroma/L3-student.ipynb
