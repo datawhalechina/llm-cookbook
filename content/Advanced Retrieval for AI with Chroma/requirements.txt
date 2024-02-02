@@ -21,6 +21,7 @@ coloredlogs==15.0.1
 comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1704278392174/work
 contourpy==1.2.0
 cycler==0.12.1
+dashscope==1.14.1
 dataclasses-json==0.6.3
 debugpy @ file:///C:/b/abs_c0y1fjipt2/croot/debugpy_1690906864587/work
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work

@@ -139,6 +139,8 @@ dmypy.json
 
 content/Advanced Retrieval for AI with Chroma/2. 基于嵌入的检索技术概述 Overview of embeddings-based retrieval.ipynb
 content/Advanced Retrieval for AI with Chroma/L3-student.ipynb
-content/Advanced Retrieval for AI with Chroma/L4-Cross-encoder re-ranking.ipynb
-content/Advanced Retrieval for AI with Chroma/L5-Query expansion.ipynb
+content/Advanced Retrieval for AI with Chroma/L5-Cross-encoder re-ranking.ipynb
+content/Advanced Retrieval for AI with Chroma/L4-Query expansion.ipynb
 content/Advanced Retrieval for AI with Chroma/L6-Embedding Adaptors.ipynb
+content/Advanced Retrieval for AI with Chroma/L1-student.ipynb
+content/Advanced Retrieval for AI with Chroma/images/基于Chroma的高级检索技术.xmind
