@@ -1,0 +1,10 @@
+openai
+llama_index
+trulens_eval
+python-dotenv
+pypdf
+transformers
+torch
+torchvision
+torchaudio
+sentence-transformers
