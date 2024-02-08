@@ -60,7 +60,3 @@ def print_result(result):
             print(f"{key}:{item.get(key)}")
             print()
         print()
-
-
-emb = co.embed(texts=list(sentences['text']),
-               model='embed-english-v2.0').embeddings 
