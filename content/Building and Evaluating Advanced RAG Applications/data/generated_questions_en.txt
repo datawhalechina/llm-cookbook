@@ -1,0 +1,24 @@
+In the context of job switching, what advantages does working in a startup offer over a big company, particularly for someone looking to transition into an AI role?
+Explain the scenario planning exercise mentioned in the context of the Covid-19 pandemic. How can this method be applied to personal life situations such as job hunting or exam preparation?
+In the context of project selection and execution, explain the difference between the "Ready, Aim, Fire" and "Ready, Fire, Aim" approaches. Provide examples where each approach might be more beneficial.
+Discuss the importance of working on projects that complement your career goals. How can these projects serve as stepping stones to larger projects and contribute to technical growth and skill progression?
+According to the text, what are some of the key areas of mathematics that are relevant to machine learning and why are they important in the field of AI?
+The text mentions BJ Fogg's approach to building new habits. How can this approach be applied to the process of learning technical skills for a promising AI career?
+What is an informational interview and how can it be beneficial for someone looking to switch roles or industries, particularly in the field of AI?
+What are some of the steps involved in a typical job search process and how can one increase their odds of finding a position that supports their career growth?
+According to the text, what are some key elements to consider when preparing for a job interview in the AI field?
+How does the document suggest you approach the job-search process and what role does your community play in this process?
+In the context of building a portfolio of projects, explain the importance of communication and leadership skills in the progression from small-scale to larger AI projects.
+Discuss the framework suggested for job seekers in AI, especially those transitioning from a different field. How does switching roles or industries impact the job search process?
+In the context of overcoming imposter syndrome in the AI community, what strategies does the author suggest for finding supportive mentors or peers?
+The author uses a mortality calculator to emphasize the importance of making every day count. Explain how this concept is used to motivate the reader in the context of the document.
+In the context of machine learning, why is understanding the math behind algorithms such as gradient descent, momentum, and the Adam optimization algorithm important? Provide examples to support your answer.
+Describe the five steps to scope successful AI projects as discussed in the document. Provide a detailed explanation of each step using the example of applying AI to climate change.
+According to the text, what are some strategies for identifying and scoping AI projects that align with your career goals and how can these projects potentially contribute to your professional growth?
+Discuss the importance of budgeting for resources in the successful execution of AI projects. What are some examples of resources that might need to be considered in the budget?
+In the introduction, the author compares AI coding to a form of literacy. Explain this comparison and discuss how AI coding could be beneficial in everyday professions, using the example of a pizza maker provided in the text.
+According to the text, what are the three key steps of career growth in the field of AI? Provide a brief explanation of each step.
+According to the text, what are the three key steps for building a career in AI and how does being part of a community support these steps?
+What are the most important topics for a technical career in machine learning as mentioned in the text and why is it crucial to understand the core concepts behind how and why machine learning works?
+According to the text, what are some key factors to consider when plotting a path to success in AI? Provide examples from the text to support your answer.
+The author discusses the concept of "imposter syndrome" in the field of AI. Explain what this term means and how it can affect individuals in the AI community.
