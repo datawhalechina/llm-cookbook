@@ -97,6 +97,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 - [仲泰](https://github.com/ztgg0228)（内容创作者-Datawhale成员）
 - [万礼行](https://github.com/leason-wan)（内容创作者-视频翻译者）
 - [王熠明](https://github.com/Bald0Wang)（内容创作者-Datawhale成员）
+- [曾浩龙](https://yetingyun.blog.csdn.net)（内容创作者-Datawhale 意向成员-JLU AI 研究生）
 - [小饭同学](https://github.com/xinqi-fan)（内容创作者）
 - [孙韩玉](https://github.com/sunhanyu714])（内容创作者-算法量化部署工程师）
 - [张银晗](https://github.com/YinHan-Zhang)（内容创作者-Datawhale成员）
