@@ -1,4 +1,4 @@
-# 吴恩达新课程《Langchain Chat with Your Data》
+# 使用 LangChain 访问个人数据
 
 吴恩达《LangChain Chat With your Data》课程中文版，主要内容为在 LangChain 应用开发课程基础上，讲解如何使用 LangChain 来整合自己的私有数据，包括：加载并切割本地文档；向量数据库与词向量；检索回答；基于私有数据的问答与聊天等。
 
