@@ -1,5 +1,3 @@
-![figures/readme.png](https://github.com/datawhalechina/prompt-engineering-for-developers/blob/main/figures/readme2.png)
-
 # 面向开发者的大模型手册 - LLM Cookbook
 
 ## 项目简介
@@ -125,7 +123,7 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 <div align=center>
 <p>扫描下方二维码关注公众号：Datawhale</p>
-<img src="figures/qrcode.jpeg" width = "180" height = "180">
+<img src="https://github.com/datawhalechina/llm-cookbook/blob/main/figures/qrcode.jpeg" width = "180" height = "180">
 </div>
 Datawhale 是一个专注于数据科学与 AI 领域的开源组织，汇集了众多领域院校和知名企业的优秀学习者，聚合了一群有开源精神和探索精神的团队成员。微信搜索公众号Datawhale可以加入我们。
 
