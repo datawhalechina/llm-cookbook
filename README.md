@@ -10,9 +10,9 @@
 
 如果有你非常喜欢但我们还没有进行复现的吴恩达老师大模型课程，我们欢迎每一位开发者参考我们已有课程的格式和写法来对课程进行复现并提交 PR，在 PR 审核通过后，我们会根据课程内容将课程进行分级合并。欢迎每一位开发者的贡献！
 
-**在线阅读地址：[面向开发者的 LLM 入门课程-在线阅读](https://datawhalechina.github.io/prompt-engineering-for-developers/)**
+**在线阅读地址：[面向开发者的 LLM 入门课程-在线阅读](https://datawhalechina.github.io/llm-cookbook/)**
 
-**PDF下载地址：[面向开发者的 LLM 入门教程-PDF](https://github.com/datawhalechina/prompt-engineering-for-developers/releases)**
+**PDF下载地址：[面向开发者的 LLM 入门教程-PDF](https://datawhalechina.github.io/llm-cookbook/releases)**
 
 **英文原版地址：[吴恩达关于大模型的系列课程](https://learn.deeplearning.ai)**
 
@@ -120,8 +120,8 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 3. 如果有任何想法可以联系我们 DataWhale 也欢迎大家多多提出 issue；
 4. 特别感谢以下为教程做出贡献的同学！
 
-<a href="https://github.com/datawhalechina/prompt-engineering-for-developers/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=datawhalechina/prompt-engineering-for-developers" />
+<a href="https://datawhalechina.github.io/llm-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=datawhalechina/llm-cookbook" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
