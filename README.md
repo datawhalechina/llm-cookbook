@@ -1,4 +1,4 @@
-![figures/readme.png](https://github.com/datawhalechina/prompt-engineering-for-developers/blob/main/figures/readme2.png)
+![figures/readme.jpg](figures/readme.jpg)
 
 # 面向开发者的大模型手册 - LLM Cookbook
 
