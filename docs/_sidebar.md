@@ -1,5 +1,6 @@
 * [目录](README.md)
-    * [环境配置](环境配置.md) 
+    * [快速体验](C0/快速体验.md)
+    * [环境配置](C0/环境配置.md) 
     * 第一部分 面向开发者的提示工程
        * [0. 概述](C1/readme.md)
        * [1. 简介 Introduction](C1/1.%20简介%20Introduction.md)
