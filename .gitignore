@@ -9,7 +9,7 @@ content/metric.csv
 .DS_Store
 *.py[cod]
 *$py.class
-
+.env
 # C extensions
 *.so
 
