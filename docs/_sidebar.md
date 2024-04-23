@@ -25,21 +25,7 @@
        * [9. 评估（上）Evaluation-part1](C2/9.%20评估（上）%20Evaluation-part1.md)
        * [10. 评估（下）Evaluation-part2](C2/10.%20评估（下）Evaluation-part2.md)
        * [11. 总结 Conclusion](C2/11.总结%20conclusion.md)
-    * 第三部分 使用 LangChain 开发应用程序
-       * [0. 概述](C3/readme.md)
-       * [1. 简介 Introduction](C3/1.%20简介%20Introduction.md)
-       * [2. 模型、提示和解析器 Models, Prompts and Parsers](C3/2.%20模型、提示和解析器%20Models,%20Prompts%20and%20Output%20Parsers.md)
-       * [3. 储存 Memory](C3/3.%20储存%20Memory.md)
-       * [4. 模型链 Chains](C3/4.%20模型链%20Chains.md)
-       * [5. 基于文档的问答 Question and Answer](C3/5.%20基于文档的问答%20Question%20and%20Answer.md)
-       * [6. 评估 Evaluation](C3/6.%20评估%20Evaluation.md)
-       * [7. 代理 Agent](C3/7.%20代理%20Agent.md)
-       * [8. 总结 Conclusion](C3/8.%20总结%20Conclusion.md)
-    * 第四部分 使用 LangChain 访问个人数据
-       * [0. 概述](C4/readme.md)
-       * [1. 简介 Introduction](C4/1.%20简介%20Introduction.md)
-       * [2. 文档加载 Document Loading](C4/2.%20文档加载%20Document%20Loading.md)
-       * [3. 文档分割 Splitting](C4/3.%20文档分割%20Splitting.md)
+
        * [4. 向量数据库与词向量 Vectorstores and Embeddings](C4/4.%20向量数据库与词向量%20Vectorstores%20and%20Embeddings.md)
        * [5. 检索 Retrieval](C4/5.%20检索%20Retrieval.md)
        * [6. 问答 Question ANswering](C4/6.%20问答%20Question%20Answering.md)
