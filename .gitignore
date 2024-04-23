@@ -10,6 +10,7 @@ content/metric.csv
 *.py[cod]
 *$py.class
 .env
+content/.env
 # C extensions
 *.so
 README.md
