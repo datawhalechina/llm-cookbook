@@ -7,12 +7,6 @@
 
 针对不同内容的特点，我们对共计 11 门吴恩达老师的大模型课程进行了翻译复现，并结合国内学习者的实际情况，对不同课程进行了分级和排序，初学者可以先系统学习我们的必修类课程，掌握入门 LLM 所有方向都需要掌握的基础技能和概念，再选择性地学习我们的选修类课程，在自己感兴趣的方向上不断探索和学习。
 
-如果有你非常喜欢但我们还没有进行复现的吴恩达老师大模型课程，我们欢迎每一位开发者参考我们已有课程的格式和写法来对课程进行复现并提交 PR，在 PR 审核通过后，我们会根据课程内容将课程进行分级合并。欢迎每一位开发者的贡献！
-
-**在线阅读地址：[面向开发者的 LLM 入门课程-在线阅读](https://datawhalechina.github.io/llm-cookbook/)**
-
-**PDF下载地址：[面向开发者的 LLM 入门教程-PDF](https://datawhalechina.github.io/llm-cookbook/releases)**
-
 **英文原版地址：[吴恩达关于大模型的系列课程](https://learn.deeplearning.ai)**
 
 ## 项目意义
@@ -38,7 +32,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 
 如果你想要开始学习本教程，你需要提前具备：
 
-1. 至少一个 LLM API（最好是 OpenAI，如果是其他 API，你可能需要参考[其他教程](https://github.com/datawhalechina/llm-universe)对 API 调用代码进行修改）
+1. 至少一个 LLM API（随课程提供）
 2. 能够使用 Python Jupyter Notebook 
 
 本教程共包括 11 门课程，分为必修类、选修类两个类别。必修类课程是我们认为最适合初学者学习以入门 LLM 的课程，包括了入门 LLM 所有方向都需要掌握的基础技能和概念，我们也针对必修类课程制作了适合阅读的在线阅读和 PDF 版本，在学习必修类课程时，我们建议学习者按照我们列出的顺序进行学习；选修类课程是在必修类课程上的拓展延伸，包括了 RAG 开发、模型微调、模型评估等多个方面，适合学习者在掌握了必修类课程之后选择自己感兴趣的方向和课程进行学习。
@@ -61,13 +55,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 7. LangChain 的 Functions、Tools 和 Agents。基于吴恩达老师《Functions, Tools and Agents with LangChain》课程打造，介绍如何基于 LangChain 的新语法构建 Agent。
 8. Prompt 高级技巧。原创内容，创作中。
 
-其他资料包括：
 
-**双语字幕视频地址：[吴恩达 x OpenAI的Prompt Engineering课程专业翻译版](https://www.bilibili.com/video/BV1Bo4y1A7FU/?share_source=copy_web)**
-
-**中英双语字幕下载：[《ChatGPT提示工程》非官方版中英双语字幕](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)**
-
-**视频讲解：[面向开发者的 Prompt Engineering 讲解（数字游民大会）](https://www.bilibili.com/video/BV1PN4y1k7y2/?spm_id_from=333.999.0.0)**
 
 
 目录结构说明：
