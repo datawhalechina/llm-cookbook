@@ -12,6 +12,7 @@ content/metric.csv
 .env
 # C extensions
 *.so
+README.md
 
 # Distribution / packaging
 .Python
