@@ -21,7 +21,7 @@ LLM 正在逐步改变人们的生活，而对于学生，如何基于 LLM 提�
 
 1. 至少一个 LLM API（随课程提供）
 2. 有Github账号，可以**稳定**访问Github和Google。
-
+3. 尽量携带笔记本上课：在课堂上会生成一个试用的 OPENAI API key。
 
 # 目录结构说明
 
@@ -29,4 +29,4 @@ LLM 正在逐步改变人们的生活，而对于学生，如何基于 LLM 提�
 
     docs：课程文字。
 
-# [版权和致谢](../Acknowledge.md)
+# [版权和致谢](./Acknowledge.md)
