@@ -13,7 +13,6 @@
        * [7. 文本扩展 Expanding](C1/7.%20文本扩展%20Expanding.md)
        * [8. 聊天机器人 Chatbot](C1/8.%20聊天机器人%20Chatbot.md)
        * [9. 总结 Summary](C1/9.%20总结%20Summary.md)
-<!--
     * 第二部分 搭建基于 ChatGPT 的问答系统
        * [0. 概述](C2/readme.md)
        * [1. 简介 Introduction](C2/1.%20简介%20Introduction.md)
@@ -33,4 +32,3 @@
        * [6. 问答 Question ANswering](C4/6.%20问答%20Question%20Answering.md)
        * [7. 聊天 Chat](C4/7.%20聊天%20Chat.md)
        * [8. 总结 Summary](C4/8.%20总结%20Summary.md)
--->
