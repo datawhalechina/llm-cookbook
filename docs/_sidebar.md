@@ -6,7 +6,7 @@
        * [0. 概述](C1/readme.md)
        * [1. 简介 Introduction](C1/1.%20简介%20Introduction.md)
        * [2. 提示原则 Guidelines](C1/2.%20提示原则%20Guidelines.md)
-       * [3. 迭代优化 Iterative](C1/3.%20迭代优化%20Iterative.md1)
+       * [3. 迭代优化 Iterative](C1/3.%20迭代优化%20Iterative.md)
        * [4. 文本概括 Summarizing](C1/4.%20文本概括%20Summarizing.md1)
        * [5. 推断 Inferring](C1/5.%20推断%20Inferring.md1)
        * [6. 文本转换 Transforming](C1/6.%20文本转换%20Transforming.md1)
