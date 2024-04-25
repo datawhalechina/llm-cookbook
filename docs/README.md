@@ -26,7 +26,7 @@ LLM 正在逐步改变人们的生活，而对于学生，如何基于 LLM 提�
 
 在这里，你可以快速了解本课程第一节的内容和操作。
 
-![](./figures/quick.gif)
+![](./figures/quickgif.gif)
 
 ## 目录结构说明
 
