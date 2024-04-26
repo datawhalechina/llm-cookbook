@@ -36,9 +36,14 @@ LLM 正在逐步改变人们的生活，而对于学生，如何基于 LLM 提�
 
 # 答疑
 
-你可以询问右下角的课程[助教机器人]，也可以在[github issue](https://github.com/whitewum/llm-cookbook/issues/new)留言
+- 你可以询问右下角的课程[助教机器人]。
 
-    你的问题和讨论，将成为助教机器人的知识库，帮助更多的同学。
+    课程资料和代码已经作为[助教机器人]的知识库，特别当本课程的代码调试碰到问题时，试试把你的代码和报错发给它。而你的问题和讨论，将帮助更新机器人的知识库，帮助今后更多的同学。
+
+- 你也可以在[github issue](https://github.com/whitewum/llm-cookbook/issues/new)留言
+
+
+    
 
 # 作业
 

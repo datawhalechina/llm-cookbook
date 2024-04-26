@@ -122,7 +122,7 @@ client = OpenAI(
   api_key=os.environ['OPENAI_API_KEY']
 )
 deployment = "gpt-3.5-turbo"  # Typically, you would use this if specifying a particular model or deployment.
-print(client.api_key[:2]) #  保证key安全，不要泄露
+#print(client.api_key[:2]) #  保证key安全，不要泄露
 
 def get_completion_from_messages(messages, 
                                 model="gpt-3.5-turbo", 
