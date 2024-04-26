@@ -13,7 +13,6 @@ content/metric.csv
 content/.env
 # C extensions
 *.so
-README.md
 Gemfile
 
 # Distribution / packaging
