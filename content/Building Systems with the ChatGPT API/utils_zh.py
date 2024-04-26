@@ -95,14 +95,28 @@ step_6_system_message_content = f"""
 step_6_system_message = {'role':'system', 'content': step_6_system_message_content}    
 
 # 使用 ChatCompletion 接口
-def get_completion_from_messages(messages, model="gpt-3.5-turbo", temperature=0, max_tokens=500):
-    response = openai.ChatCompletion.create(
-        model=model,
+import os
+from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
+client = OpenAI(
+  api_key=os.environ['OPENAI_API_KEY']
+)
+deployment = "gpt-3.5-turbo"  # Typically, you would use this if specifying a particular model or deployment.
+print(client.api_key[:2]) #  保证key安全，不要泄露
+
+def get_completion_from_messages(messages, 
+                                model="gpt-3.5-turbo", 
+                                temperature=0, 
+                                max_tokens=500):
+    print(messages)
+    response = client.chat.completions.create(
+        model=deployment,                                        
         messages=messages,
-        temperature=temperature, 
-        max_tokens=max_tokens, 
+        temperature=0,  # this controls the randomness of the model's output
+        max_tokens=1024
     )
-    return response.choices[0].message["content"]
+    return response.choices[0].message.content
 
 # 创建目录（如果没有本地目录文件，需要创建一份）
 def create_categories():
