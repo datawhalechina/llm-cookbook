@@ -26,9 +26,3 @@
        * [9. 评估（上）Evaluation-part1](C2/9.%20评估（上）%20Evaluation-part1.md)
        * [10. 评估（下）Evaluation-part2](C2/10.%20评估（下）Evaluation-part2.md)
        * [11. 总结 Conclusion](C2/11.总结%20conclusion.md)
-
-       * [4. 向量数据库与词向量 Vectorstores and Embeddings](C4/4.%20向量数据库与词向量%20Vectorstores%20and%20Embeddings.md)
-       * [5. 检索 Retrieval](C4/5.%20检索%20Retrieval.md)
-       * [6. 问答 Question ANswering](C4/6.%20问答%20Question%20Answering.md)
-       * [7. 聊天 Chat](C4/7.%20聊天%20Chat.md)
-       * [8. 总结 Summary](C4/8.%20总结%20Summary.md)
