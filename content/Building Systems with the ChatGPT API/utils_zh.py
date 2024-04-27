@@ -106,15 +106,24 @@ deployment = "gpt-3.5-turbo"  # Typically, you would use this if specifying a pa
 print(client.api_key[:2]) #  保证key安全，不要泄露
 
 def get_completion_from_messages(messages, 
-                                model="gpt-3.5-turbo", 
+                                model=deployment, 
                                 temperature=0, 
-                                max_tokens=500):
-    print(messages)
+                                max_tokens=500,
+                                json=False):
+    #print(messages)
+    # 根据json参数决定是否设置response_format
+    if json:
+        response_format = {"type": "json_object"}
+    else:
+        response_format = {"type": "text"}
+
+    # 创建API请求
     response = client.chat.completions.create(
-        model=deployment,                                        
+        model=model,  # 使用函数参数model而非deployment
         messages=messages,
-        temperature=0,  # this controls the randomness of the model's output
-        max_tokens=1024
+        temperature=temperature,  # 使用函数参数temperature
+        max_tokens=max_tokens,  # 使用函数参数max_tokens
+        response_format=response_format  # 使用上面定义的response_format
     )
     return response.choices[0].message.content
 
@@ -211,7 +220,7 @@ def find_category_and_product(user_input,products_and_category):
     {'role':'system', 'content': system_message},    
     {'role':'user', 'content': f"{delimiter}{user_input}{delimiter}"},  
     ] 
-    return get_completion_from_messages(messages)
+    return get_completion_from_messages(messages,json=True)
 
 # 相比上一个函数，可获取的商品直接在 template 中限定
 def find_category_and_product_only(user_input,products_and_category):
@@ -365,7 +374,7 @@ def read_string_to_list(input_string):
         return None
 
     try:
-        input_string = input_string.replace("'", "\"")  # Replace single quotes with double quotes for valid JSON
+        input_string = input_string.replace("```json","").replace("```","").replace("'", "\"")  # Replace single quotes with double quotes for valid JSON
         data = json.loads(input_string)
         return data
     except json.JSONDecodeError:

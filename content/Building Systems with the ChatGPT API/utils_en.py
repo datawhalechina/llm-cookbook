@@ -381,7 +381,7 @@ def read_string_to_list(input_string):
         return None
 
     try:
-        input_string = input_string.replace("'", "\"")  # Replace single quotes with double quotes for valid JSON
+        input_string = input_string.replace("```json","").replace("```","").replace("'", "\"")  # Replace single quotes with double quotes for valid JSON
         data = json.loads(input_string)
         return data
     except json.JSONDecodeError:

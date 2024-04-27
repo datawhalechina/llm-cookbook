@@ -14,7 +14,7 @@ content/.env
 # C extensions
 *.so
 Gemfile
-
+.vscode/
 # Distribution / packaging
 .Python
 build/
