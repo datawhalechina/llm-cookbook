@@ -60,7 +60,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 5. 基于 Chroma 的高级检索。基于吴恩达老师《Advanced Retrieval for AI with Chroma》课程打造，旨在介绍基于 Chroma 的高级检索技术，提升检索结果的准确性。
 6. 搭建和评估高级 RAG 应用。基于吴恩达老师《Building and Evaluating Advanced RAG Applications》课程打造，介绍构建和实现高质量RAG系统所需的关键技术和评估框架。
 7. LangChain 的 Functions、Tools 和 Agents。基于吴恩达老师《Functions, Tools and Agents with LangChain》课程打造，介绍如何基于 LangChain 的新语法构建 Agent。
-8. Prompt 高级技巧。原创内容，创作中。
+8. Prompt 高级技巧。包括 CoT、自我一致性等多种 Prompt 高级技巧的基础理论与代码实现。
 
 其他资料包括：
 
