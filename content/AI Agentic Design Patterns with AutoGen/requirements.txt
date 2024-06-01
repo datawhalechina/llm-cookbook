@@ -1,0 +1,7 @@
+pyautogen
+chess
+matplotlib
+numpy
+pandas
+yfinance
+jupyterlab
