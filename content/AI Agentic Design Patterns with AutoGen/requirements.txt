@@ -1,0 +1,8 @@
+pyautogen==0.2.25
+python-dotenv
+chess
+matplotlib
+numpy
+pandas
+yfinance
+jupyterlab
