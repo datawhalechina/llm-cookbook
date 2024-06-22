@@ -12,7 +12,7 @@
 
 **在线阅读地址：[面向开发者的 LLM 入门课程-在线阅读](https://datawhalechina.github.io/llm-cookbook/)**
 
-**PDF下载地址：[面向开发者的 LLM 入门教程-PDF](https://datawhalechina.github.io/llm-cookbook/releases)**
+**PDF下载地址：[面向开发者的 LLM 入门教程-PDF](https://github.com/datawhalechina/llm-cookbook/releases)**
 
 **英文原版地址：[吴恩达关于大模型的系列课程](https://learn.deeplearning.ai)**
 
