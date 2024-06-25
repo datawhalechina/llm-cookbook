@@ -22,3 +22,4 @@ pypdf==4.0.1
 protobuf==4.22
 requests==2.29.0
 urllib3==1.25.11
+markdown==3.6
