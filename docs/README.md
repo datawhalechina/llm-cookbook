@@ -34,6 +34,10 @@ LLM 正在逐步改变人们的生活，而对于学生，如何基于 LLM 提�
 
     docs：课程文字。
 
+## 课程Slides
+
+[slides](https://chapter-1-cvqdbot.gamma.site/)
+
 # 答疑
 
 - 你可以询问右下角的课程[助教机器人]。
