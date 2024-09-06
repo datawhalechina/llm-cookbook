@@ -34,9 +34,14 @@ LLM 正在逐步改变人们的生活，而对于学生，如何基于 LLM 提�
 
     docs：课程文字。
 
-## 课程Slides
+## 课程资料
 
-[slides](https://chapter-1-cvqdbot.gamma.site/)
+
+[Slides](https://hdu-cvqdbot.gamma.site/llm-app)
+
+[Code](https://github.com/whitewum/llm-cookboo)
+
+[AI Assistant](https://udify.app/chat/9OXFttWZF6foAMlG)
 
 # 答疑
 
