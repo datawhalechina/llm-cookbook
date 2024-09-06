@@ -20,7 +20,7 @@ LLM 正在逐步改变人们的生活，而对于学生，如何基于 LLM 提�
 0. 基本的英语阅读能力，或者在工具帮助下阅读英文。
 1. 具备基础 Python 能力，对 Jupyter Notebook 有简单了解。
 2. 有 Github 账号，可以**稳定**访问 Github，了解简单的 Github 使用。
-3. 尽量携带笔记本上课：在课堂上会提供一个试用的 OPENAI API key。
+3. 尽量携带笔记本上课：使用DeepSeek等厂商赠送的KEY。
 
 ## 课程速览
 
