@@ -1,0 +1,13 @@
+chromadb==0.5.0
+docarray==0.40.0
+jupyter_bokeh==4.0.5
+lark==1.1.9
+langchain==0.2.3
+langchain_community==0.2.4
+openai==1.33.0
+panel==1.4.4
+pydub==0.25.1
+pypdf==4.2.0
+python-dotenv==1.0.1
+scikit-learn==1.5.0
+tiktoken==0.7.0
