@@ -10,9 +10,9 @@
 
 如果有你非常喜欢但我们还没有进行复现的吴恩达老师大模型课程，我们欢迎每一位开发者参考我们已有课程的格式和写法来对课程进行复现并提交 PR，在 PR 审核通过后，我们会根据课程内容将课程进行分级合并。欢迎每一位开发者的贡献！
 
-**在线阅读地址：[面向开发者的 LLM 入门课程-在线阅读](https://datawhalechina.github.io/llm-cookbook/)**
+**在线阅读地址：[面向开发者的 LLM 入门课程 - 在线阅读](https://datawhalechina.github.io/llm-cookbook/)**
 
-**PDF 下载地址：[面向开发者的 LLM 入门教程-PDF](https://github.com/datawhalechina/llm-cookbook/releases/tag/v1%2C0%2C0)**
+**PDF 下载地址：[面向开发者的 LLM 入门教程 - PDF](https://github.com/datawhalechina/llm-cookbook/releases/tag/v1%2C0%2C0)**
 
 **英文原版地址：[吴恩达关于大模型的系列课程](https://learn.deeplearning.ai)**
 
@@ -84,17 +84,17 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 **核心贡献者**
 
 - [邹雨衡 - 项目负责人](https://github.com/logan-zou)（Datawhale 成员 - 对外经济贸易大学研究生）
-- [长琴 - 项目发起人](https://yam.gift/)（内容创作者 -Datawhale 成员 - AI 算法工程师）
+- [长琴 - 项目发起人](https://yam.gift/)（内容创作者 - Datawhale 成员 - AI 算法工程师）
 - [玉琳 - 项目发起人](https://github.com/Sophia-Huang)（内容创作者 - Datawhale 成员）
 - [徐虎 - 教程编撰者](https://github.com/xuhu0115)（内容创作者 - Datawhale 成员）
 - [刘伟鸿 - 教程编撰者](https://github.com/Weihong-Liu)（内容创作者 - 江南大学非全研究生）
 - [Joye - 教程编撰者](https://Joyenjoye.com)（内容创作者 - 数据科学家）
-- [高立业](https://github.com/0-yy-0)（内容创作者 - DataWhale 成员 - 算法工程师）
+- [高立业](https://github.com/0-yy-0)（内容创作者 - Datawhale 成员 - 算法工程师）
 - [邓宇文](https://github.com/GKDGKD)（内容创作者 - Datawhale 成员）
 - [魂兮](https://github.com/wisdom-pan)（内容创作者 - 前端工程师）
 - [宋志学](https://github.com/KMnO4-zx)（内容创作者 - Datawhale 成员）
 - [韩颐堃](https://github.com/YikunHan42)（内容创作者 - Datawhale 成员）
-- [陈逸涵](https://github.com/6forwater29) (内容创作者 - Datawhale 意向成员 -AI 爱好者)
+- [陈逸涵](https://github.com/6forwater29) (内容创作者 - Datawhale 意向成员 - AI 爱好者)
 - [仲泰](https://github.com/ztgg0228)（内容创作者 - Datawhale 成员）
 - [万礼行](https://github.com/leason-wan)（内容创作者 - 视频翻译者）
 - [王熠明](https://github.com/Bald0Wang)（内容创作者 - Datawhale 成员）
@@ -117,7 +117,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 
 1. 特别感谢 [@Sm1les](https://github.com/Sm1les)、[@LSGOMYP](https://github.com/LSGOMYP) 对本项目的帮助与支持；
 2. 感谢 [GithubDaily](https://github.com/GitHubDaily) 提供的双语字幕；
-3. 如果有任何想法可以联系我们 DataWhale 也欢迎大家多多提出 Issues；
+3. 如果有任何想法可以联系我们 Datawhale 也欢迎大家多多提出 Issues；
 4. 特别感谢以下为教程做出贡献的同学！
 
 <a href="https://datawhalechina.github.io/llm-cookbook/graphs/contributors">
@@ -140,4 +140,4 @@ Made with [contrib.rocks](https://contrib.rocks).
 Datawhale 是一个专注于数据科学与 AI 领域的开源组织，汇集了众多领域院校和知名企业的优秀学习者，聚合了一群有开源精神和探索精神的团队成员。微信搜索公众号 Datawhale 可以加入我们。
 
 ## LICENSE
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名 - 非商业性使用 - 相同方式共享 4.0 国际许可协议</a>进行许可。
