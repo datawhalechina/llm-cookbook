@@ -1,0 +1,13 @@
+DateTime==5.5
+docarray==0.40.0
+langchain==0.2.3
+langchain-community==0.2.4
+langchain_experimental==0.0.60
+numexpr==2.10.0
+openai==1.33.0
+pandas==2.2.2
+pinyin==0.4.0
+python-dotenv==1.0.1
+tiktoken==0.7.0
+wikipedia==1.4.0
+xpinyin==0.7.6
