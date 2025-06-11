@@ -1,0 +1,1099 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.domMobile {
+  display: none;
+}
+
+.nav .nav-cont,
+.header,
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*.logo-index {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  left: 50%;
+  top: 0;
+  margin-left: -690px;
+  z-index: 99;
+  background: url(http://www.news.cn/detail2020/images/logo.png) 0 0 no-repeat;
+}
+*/
+.topAd {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.smallTop {
+  z-index: 9999 !important;
+}
+
+#cbVideoCompress {
+  display: none;
+
+}
+
+.header {
+  height: 185px;
+  position: relative;
+  text-align: center;
+  border-bottom: 3px solid #d9d9d9;
+}
+
+.header .header-top {
+  height: 30px;
+  margin-top: 15px;
+}
+
+.header .header-time {
+  width: 105px;
+  text-align: center;
+}
+
+.header .header-time span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.header .header-time .year {
+  height: 20px;
+  display: block;
+  background: url(http://www.news.cn/detail2020/images/bgYear.png) 50% 50% no-repeat;
+}
+
+.header .header-time .year em {
+  font-size: 18px;
+  background: #fff;
+  font-style: normal;
+  padding: 0 2px;
+}
+
+.header .header-time .day {
+  height: 40px;
+  font-size: 34px;
+  margin: 10px 0;
+}
+
+.header .header-time .day em {
+  font-style: normal;
+}
+
+.header .header-time .time {
+  font-size: 18px;
+  height: 20px;
+}
+
+.header .header-cont {
+  margin-top: 10px;
+}
+
+.header .source {
+  position: absolute;
+  left: 0;
+  top: 150px;
+}
+
+.header h1 {
+  text-align: center;
+  height: 80px;
+  padding: 0 20px;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+  font-size: 36px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 .title {
+  max-width: 95%;
+}
+
+.header .setFont {
+  height: 32px;
+  line-height: 32px;
+  background: url(http://www.news.cn/detail2020/images/icon-font.png) 0 0 no-repeat;
+  padding-left: 34px;
+  display: inline-block;
+}
+
+.header .setFont span {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+
+.header .setFont span.active {
+  background: #2c64c3;
+  color: #fff;
+  border-radius: 100%;
+}
+
+.header .share {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 999;
+}
+
+.header .share * {
+  vertical-align: middle;
+}
+
+.header .share a {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin: 0 5px;
+  transition: all .1s;
+}
+
+
+
+.header .share .wx {
+  background: url(http://www.news.cn/detail2020/images/share.png) 0 0 no-repeat;
+}
+
+.header .share .wb {
+  background: url(http://www.news.cn/detail2020/images/share.png) -45px 0 no-repeat;
+}
+
+.header .share .xcx {
+  background: url(http://www.news.cn/detail2020/images/share.png) -133px 0 no-repeat;
+}
+
+.header .share .khd {
+  background: url(http://www.news.cn/detail2020/images/share.png) -90px 0 no-repeat;
+}
+
+.header .share .wx-ewm,
+.header .share .xcx-ewm,
+.header .share .khd-ewm {
+  margin-bottom: 24px;
+  width: 150px;
+  height: 150px;
+  background-color: #348CEC;
+  color: #808080;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  display: none;
+  z-index: 99;
+}
+
+.header .share .xcx-ewm {
+  left: 125px;
+}
+
+.header .share .khd-ewm {
+  left: 170px;
+}
+
+.header .share .wx-ewm img,
+.header .share .xcx-ewm img,
+.header .share .khd-ewm img {
+  display: block;
+  width: 135px;
+  height: 135px;
+  margin: 8px auto;
+}
+
+.main .main-left {
+  width: 860px;
+}
+
+.main .main-right {
+  width: 300px;
+  padding-top: 20px;
+}
+
+.main #detail {
+  font-size: 18px;
+  line-height: 2em;
+  padding-top: 20px;
+}
+
+.main #detail p {
+  padding-bottom: 20px;
+}
+
+.main #detail p img {
+  max-width: 90%;
+  height: auto !important;
+  margin: 0 auto;
+  display: block;
+}
+
+.main #detail #detailContent img {
+  max-width: 950px;
+  height: auto !important;
+  margin: 0 auto;
+  display: block;
+}
+
+.columBox {
+  margin-bottom: 20px;
+}
+
+.columBox .col-tit {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.columBox .col-tit span {
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px 0 30px;
+  background: url(http://www.news.cn/detail2020/images/icon-colum.png) 0 50% no-repeat;
+  border-bottom: 3px solid #2a3d96;
+  z-index: 3;
+}
+
+.book {
+  margin: 20px 0;
+  background: url(http://www.news.cn/detail2020/images/bgBook.png);
+  height: 201px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.book li {
+  float: left;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 21px;
+}
+
+.book li img {
+  width: 110px;
+  height: 110px;
+}
+
+.book .book-tit {
+  margin: 5px 0;
+  font-size: 14px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.bookList {
+  background: #ddedf8;
+}
+
+.bookList li {
+  float: left;
+  width: 138px;
+  text-align: center;
+  margin: 4px 0 4px 4px;
+  background: #fff;
+}
+
+.bookList li img {
+  width: 110px;
+  height: 110px;
+}
+
+.bookList li .pic {
+  margin: 10px 0 5px;
+}
+
+.bookList li .title {
+  height: 60px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.bookList li .title a {
+  font-size: 14px;
+}
+
+.bookList li:first-child {
+  margin: 4px 0 4px 6px;
+}
+
+.hotList li {
+  position: relative;
+  line-height: 1.6em;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+
+.hotList li:before {
+  content: "";
+  text-align: center;
+  color: #fff;
+  width: 24px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(http://www.news.cn/detail2020/images/hotList.png) 0 -232px no-repeat;
+}
+
+.hotList .first:before {
+  background: url(http://www.news.cn/detail2020/images/hotList.png) 0 0 no-repeat;
+}
+
+.hotList .second:before {
+  background: url(http://www.news.cn/detail2020/images/hotList.png) 0 -76px no-repeat;
+}
+
+.hotList .third:before {
+  background: url(http://www.news.cn/detail2020/images/hotList.png) 0 -152px no-repeat;
+}
+
+.hotList li:nth-child(1):before {
+  content: "1";
+}
+
+.hotList li:nth-child(2):before {
+  content: "2";
+}
+
+.hotList li:nth-child(3):before {
+  content: "3";
+}
+
+.hotList li:nth-child(4):before {
+  content: "4";
+}
+
+.hotList li:nth-child(5):before {
+  content: "5";
+}
+
+.hotList li:nth-child(6):before {
+  content: "6";
+}
+
+.hotList li:nth-child(7):before {
+  content: "7";
+}
+
+.hotList li:nth-child(8):before {
+  content: "8";
+}
+
+.hotList li:nth-child(9):before {
+  content: "9";
+}
+
+.hotList li:nth-child(10):before {
+  content: "10";
+}
+
+.relatedNews li {
+  margin: 15px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.relatedNews li a {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #404040;
+
+}
+
+.relatedNews li .info {
+  font-size: 14px;
+  color: #808080;
+  line-height: 28px;
+}
+
+.relatedNews li .time {
+  font-size: 14px;
+  color: #808080;
+  line-height: 28px;
+}
+
+.video li {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.video li .pic {
+  height: 169px;
+  width: 100%;
+  position: relative;
+  border-radius: 6px;
+}
+
+.video li .pic img {
+  width: 100%;
+}
+
+.video li .tit {
+  line-height: 1.6em;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 5px 5px 50px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+  /* IE6-9 */
+}
+
+.video li .tit a {
+  color: #fff;
+}
+
+.video li a:before {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 5px;
+  bottom: 5px;
+  z-index: 2;
+  background: url(http://www.news.cn/detail2020/images/icon-video.png) 0 0 no-repeat;
+}
+
+.video li .col-source {
+  height: 20px;
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+.fixVideo {
+  position: fixed;
+  top: 85px;
+  width: 300px;
+}
+
+.main-left .nextpage {
+  height: 70px;
+  line-height: 70px;
+  margin: 20px 0;
+  background: #f5fbff;
+  border-top: 1px solid #dde8f3;
+  border-bottom: 1px solid #dde8f3;
+}
+
+.main-left .nextpage .nextpage-tit {
+  margin-left: 3%;
+  float: left;
+  box-sizing: border-box;
+  width: 15%;
+  height: 100%;
+  font-size: 16px;
+  color: #008aff;
+  padding-left: 30px;
+  background: url(http://www.news.cn/detail2020/images/icon-nextpage.png) 0 25px no-repeat;
+}
+
+.main-left .nextpage .nextpage-cont {
+  float: left;
+  width: 82%;
+  height: 100%;
+  text-align: left;
+  overflow: hidden;
+}
+
+.main-left .nextpage .nextpage-cont a {
+  display: flex;
+  /*鍨傜洿鎺掑垪*/
+  flex-direction: column;
+  /* align-items: center; */
+  /*鐢变簬flex-direction: column锛屽洜姝lign-items浠ｈ〃鐨勬槸姘村钩鏂瑰悜*/
+  justify-content: center;
+  /*鐢变簬flex-direction: column锛屽洜姝ustify-content浠ｈ〃鐨勬槸鍨傜洿鏂瑰悜*/
+  height: 100%;
+  font-size: 20px;
+  line-height: 1.4em;
+  padding: 0 10px;
+  color: #008aff;
+}
+
+.fix-ewm {
+  position: fixed;
+  left: 50%;
+  top: 280px;
+  margin-left: 630px;
+}
+
+.fix-ewm .fxd {
+  margin-top: 10px;
+  height: 200px;
+  background: url(http://www.news.cn/detail2020/images/share1.png) 50% 0 no-repeat;
+}
+
+.fix-ewm .fxd-wx-ewm,
+.fix-ewm .fxd-xcx-ewm,
+.fix-ewm .fxd-khd-ewm {
+  margin-bottom: 24px;
+  width: 145px;
+  height: 145px;
+  background-color: #348CEC;
+  color: #808080;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  left: -23px;
+  top: 195px;
+  display: none;
+}
+
+.fix-ewm .fxd-khd-ewm {
+  top: 332px;
+}
+
+.fix-ewm .fxd-xcx-ewm {
+  top: 285px;
+}
+
+.fix-ewm .fxd-xcx-ewm img,
+.fix-ewm .fxd-wx-ewm img,
+.fix-ewm .fxd-khd-ewm img {
+  display: block;
+  width: 135px;
+  height: 135px;
+  margin: 5px auto;
+}
+
+.fix-ewm .fxd-wx {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 160px;
+  width: 34px;
+  height: 30px;
+  cursor: pointer;
+  background: url(http://www.news.cn/detail2020/images/shar2.png) 50% 0 no-repeat;
+}
+
+.fix-ewm .fxd-wb {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 205px;
+  width: 34px;
+  height: 30px;
+  cursor: pointer;
+  background: url(http://www.news.cn/detail2020/images/shar2.png) 50% -101px no-repeat;
+}
+
+.fix-ewm .fxd-xcx {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 250px;
+  width: 34px;
+  cursor: pointer;
+  height: 30px;
+  background: url(http://www.news.cn/detail2020/images/shar2.png) 50% -150px no-repeat;
+}
+
+.fix-ewm .fxd-khd {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 295px;
+  width: 34px;
+  cursor: pointer;
+  height: 30px;
+  background: url(http://www.news.cn/detail2020/images/shar2.png) 50% -48px no-repeat;
+}
+
+.topFixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  line-height: 75px !important;
+  background: #fff;
+  -webkit-box-shadow: 0 0px 15px 0 #b1b1b1;
+  box-shadow: 0 5px 15px 0 #b1b1b1;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  line-height: 65px;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.btn-audio {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  vertical-align: middle;
+  border: 2px solid #027bfb;
+  border-radius: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn-audio:after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  background: url(http://www.news.cn/detail2020/images/audio-play.gif) no-repeat;
+}
+
+.btn-audio-play:after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  background: url(http://www.news.cn/detail2020/images/music.gif) no-repeat;
+}
+
+.pageVideo {
+  display: none;
+}
+
+#detail .player-container {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: left;
+  text-indent: 0;
+  margin-bottom: 15px !important;
+}
+
+/*ie10浠ヤ笅*/
+.simpleVideo {
+  text-align: center;
+}
+
+.simpleVideo video {
+  margin: 0 auto;
+}
+
+/*ie10浠ヤ笅*/
+#div_currpage {
+  margin-top: 20px;
+}
+
+#div_currpage span {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  line-height: 26px;
+  background-color: #348CEC;
+}
+
+#div_currpage a {
+  display: inline-block;
+  padding: 0 10px;
+  height: 26px;
+  font-size: 12px;
+  color: #818181;
+  text-align: center;
+  line-height: 26px;
+  background-color: #F1F3F5;
+  transition: all .4s;
+  -moz-transition: all .4s;
+  ;
+  /* Firefox 4 */
+  -webkit-transition: all .4s;
+  /* Safari & Chrome */
+  -o-transition: all .4s;
+  ;
+  /* Opera */
+}
+
+#div_currpage a:hover {
+  color: #FFF;
+  background-color: #348CEC;
+}
+
+#articleEdit {
+  padding: 30px 0 10px;
+  margin: 0 10px 20px 10px;
+  text-align: right;
+  font-size: 12px;
+}
+
+.tiyi1 {
+  position: relative;
+  z-index: 100;
+  display: none;
+}
+
+.tiyi1 .tiyi01 {
+  position: absolute;
+  left: -445px;
+  top: 25px;
+  background-color: #FFF;
+  height: 342px;
+  width: 600px;
+  visibility: visible;
+}
+
+.tiyi1 .tiyi03 {
+  position: absolute;
+  left: 570px;
+  top: 2px;
+  background: url("http://www.news.cn/images/syicon/space.gif") 0 -131px no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.tiyi1 .advise,
+.tiyi1 .advise2 {
+  cursor: pointer;
+  color: #8a0000
+}
+
+.ad2020 div {
+  width: 100% !important;
+  margin-bottom: 20px !important;
+}
+
+.ad2020 div img {
+  width: 100% !important;
+}
+
+.player-container .dhy-video {
+  position: static !important;
+}
+
+.media-box {
+  min-height: auto !important;
+}
+
+#sdgc .list-item {
+  margin-bottom: 17px;
+  padding-bottom: 12px;
+  height: 80px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px dotted #999
+}
+
+#sdgc .list-item .img {
+  width: 120px;
+  height: 67px;
+  float: left;
+  margin-right: 10px;
+  overflow: hidden
+}
+
+#sdgc .list-item .img img {
+  width: 100%;
+  height: 100%
+}
+
+#sdgc .list-item .tit a {
+  display: block;
+  font-size: 15px;
+  line-height: 22px;
+  height: 44px;
+  margin-bottom: 2px;
+  margin-top: -5px;
+  color: #333
+}
+
+#sdgc .list-item .tit span {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 13px;
+  line-height: 17px;
+  background: #e30000;
+  color: #fff
+}
+
+#sdgc .list-item .tit span a {
+  height: auto;
+  font-size: 13px;
+  line-height: 17px;
+  display: inline-block;
+  background: #e30000;
+  color: #fff
+}
+
+@media screen and (max-width: 767px) {
+
+  .domPC {
+    display: none;
+  }
+
+  .domMobile {
+    display: block;
+  }
+
+  .pageVideo {
+    width: 100%;
+  }
+
+  .mob-top .mob-top-nav {
+    border-bottom: 10px solid #f5f5f5;
+  }
+
+  .mheader {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .mheader .title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .mheader h1 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+
+  .mheader .info {
+    font-size: 14px;
+    color: #646d81;
+  }
+
+  .main {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 16px;
+    overflow: hidden;
+  }
+
+  .main .main-left {
+    width: 100%;
+  }
+
+  .main #detail img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main #detail {
+    font-size: 18px;
+  }
+
+  .main-left .nextpage {
+    height: auto;
+    line-height: 2em;
+    margin: 20px 0 20px;
+    background: #f5fbff;
+    border-top: 1px solid #dde8f3;
+    border-bottom: 1px solid #dde8f3;
+  }
+
+  .main-left .nextpage .nextpage-tit {
+    margin-left: 5%;
+    margin-top: 15px;
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    overflow: hidden;
+    background: url(http://www.news.cn/detail2020/images/icon-nextpage.png) 0 5px no-repeat;
+  }
+
+  .main-left .nextpage .nextpage-cont {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .main .main-right {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .main-left .nextpage .nextpage-cont a {
+    font-size: 20px;
+  }
+
+  .hotList li a {
+    font-size: 16px;
+  }
+
+  .book {
+    margin: 20px 0;
+    position: relative;
+    background: none;
+    background-size: 100% 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 18px;
+    border-right: 3px solid #ddedf7;
+  }
+
+  .book::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 12px;
+    background: url(http://www.news.cn/detail2020/images/bgMobileBook.jpg) 0 0 no-repeat;
+    background-size: 100% auto;
+    overflow: hidden;
+  }
+
+  .book::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 12px;
+    background: url(http://www.news.cn/detail2020/images/bgMobileBook.jpg) 0 0 no-repeat;
+    background-size: 100% auto;
+    overflow: hidden;
+  }
+
+  .book li {
+    padding: 20px 10px;
+    min-height: 200px;
+    border: 3px solid #ddedf7;
+    border-right: 0;
+  }
+
+  .book li .book-tit {
+    font-size: 16px;
+    line-height: 1.6em;
+    height: 45px;
+    overflow: hidden;
+  }
+
+  .video li {
+    height: auto;
+    position: relative;
+  }
+
+  .video li img {
+    width: 100%;
+    height: auto;
+  }
+
+  .video li .pic {
+    height: auto;
+  }
+
+  #articleEdit {
+    padding: 10px 0 10px;
+    margin: 0 10px 0 10px;
+    text-align: right;
+    font-size: 12px;
+  }
+
+  .main #detail #detailContent img {
+    max-width: 95%;
+    height: auto !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .mob-top .mob-top-upper .logo i{
+    display: none;
+  }
+
+
+}
+
+/* 新增相关新闻 */
+#relateNews li {
+  padding: 15px 0;
+  box-sizing: border-box;
+  border-bottom: 1px dashed #bfbfbf;
+  display: flex;
+  align-items: center;
+}
+
+#relateNews .img {
+  float: left;
+}
+
+#relateNews .img img {
+  width: 180px;
+  height: auto;
+  margin-right: 10px;
+}
+
+#relateNews .tit {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
+#relateNews h2 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  #relateNews .img img {
+    width: 110px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  #relateNews .tit {
+    font-size: 16px;
+    line-height: 1.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+
+/* 新增相关新闻 end */

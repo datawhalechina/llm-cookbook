@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+/*
+    * @time Wed Nov 25 2020 14:05:37 GMT+0800 (中国标准时间)
+*/
+
+
+.clearfix:after,
+body,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+input,
+label,
+li,
+ol,
+p,
+pre,
+table,
+tbody,
+td,
+textarea,
+tfoot,
+th,
+thead,
+tr,
+ul,
+figure {
+    margin: 0;
+    padding: 0
+}
+
+body,
+html {
+    height: 100%
+}
+
+body {
+    font-family: 'PingFang SC', "XHW-pzh", 'Lantinghei SC', 'Helvetica Neue', Helvetica, Arial, 'Microsoft YaHei', '微软雅黑', STHeitiSC-Light, simsun, '宋体', 'WenQuanYi Zen Hei', 'WenQuanYi Micro Hei', sans-serif
+}
+
+li {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff9724 !important
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+iframe,
+img {
+    border: 0
+}
+
+img {
+    vertical-align: top
+}
+
+.clearfix {
+    display: block
+}
+
+.clearfix:after {
+    content: '';
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    display: block;
+    clear: both
+}
+
+.part {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+i {
+    font-style: normal
+}
+
+.grid-1200 {
+    width: 1200px
+}
+
+.grid-120 {
+    width: 120px
+}
+
+.grid-700 {
+    width: 700px
+}
+
+.grid-320 {
+    width: 320px
+}
+
+.mr-30 {
+    margin-right: 30px
+}
+
+.ml-30 {
+    margin-left: 30px
+}
+
+/*lhr,cl于20211201进行视频播放器样式覆写，修改视频absolute问题*/
+.player-container {
+    overflow: hidden;
+}
+
+.player-container .dhy-video {
+    position: static !important;
+}
+/*20240226社发稿标签间距*/
+figure{ margin-bottom: 20px;}
+
+/*破折号字体*/
+@font-face {
+    font-family: "XHW-pzh";
+    src: url('http://www.news.cn/global/public/text/XHW-pzh.woff2') format('woff2'),
+        url('http://www.news.cn/global/public/text/XHW-pzh.woff') format('woff'),
+        url('http://www.news.cn/global/public/text/XHW-pzh.ttf') format('truetype');
+}
