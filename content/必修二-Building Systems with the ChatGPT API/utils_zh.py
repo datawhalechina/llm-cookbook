@@ -1,7 +1,22 @@
-   
 import json
-import openai
+from openai import OpenAI
+from dotenv import load_dotenv, find_dotenv
 from collections import defaultdict
+
+
+# 实例化 OpenAI 对象
+
+loaded = load_dotenv(find_dotenv(), override=True)
+# 从环境变量中获取 OpenAI API Key 或者直接赋值
+API_KEY = os.getenv("API_KEY")
+
+
+# 如果您使用的是官方 API，就直接用 https://api.siliconflow.cn/v1 就行。
+BASE_URL = "https://api.siliconflow.cn/v1"
+
+
+# 传入参数：OpenAI API Key（必需）、Base URL 和最大重试次数
+client = OpenAI(api_key=API_KEY, base_url=BASE_URL, max_retries=3)
 
 # 商品和目录的数据文件
 products_file = 'products.json'
@@ -95,14 +110,32 @@ step_6_system_message_content = f"""
 step_6_system_message = {'role':'system', 'content': step_6_system_message_content}    
 
 # 使用 ChatCompletion 接口
-def get_completion_from_messages(messages, model="gpt-3.5-turbo", temperature=0, max_tokens=500):
-    response = openai.ChatCompletion.create(
-        model=model,
-        messages=messages,
-        temperature=temperature, 
-        max_tokens=max_tokens, 
-    )
-    return response.choices[0].message["content"]
+def get_completion_from_messages(messages, 
+                                 model_endpoint, 
+                                 temperature=0, 
+                                 max_tokens=500):
+    '''
+    封装一个支持更多参数的自定义访问 OpenAI GPT3.5 的函数
+
+    参数: 
+    messages: 这是一个消息列表，每个消息都是一个字典，包含 role(角色）和 content(内容)。角色可以是'system'、'user' 或 'assistant’，内容是角色的消息。
+    model: 调用的模型，默认为 gpt-3.5-turbo(ChatGPT)，有内测资格的用户可以选择 gpt-4
+    temperature: 这决定模型输出的随机程度，默认为0，表示输出将非常确定。增加温度会使输出更随机。
+    max_tokens: 这决定模型输出的最大的 token 数。
+    '''
+    extra_body = {}
+    if "Qwen3" in model_endpoint:
+        extra_body={
+            "enable_thinking": False
+        }
+        
+    response = client.chat.completions.create(model=model_endpoint,
+                                              messages=messages,
+                                              n=1, temperature=temperature, seed=42,
+                                              presence_penalty=0, frequency_penalty=0,
+                                              max_tokens=max_tokens, extra_body = extra_body
+                                             )
+    return response.choices[0].message.content.strip()
 
 # 创建目录（如果没有本地目录文件，需要创建一份）
 def create_categories():
@@ -267,6 +300,74 @@ FotoSnap Instant Camera
     ] 
     return get_completion_from_messages(messages)
 
+
+def find_category_and_product_only_model(user_input, model_endpoint, products_and_category):
+    delimiter = "####"
+    system_message = f"""
+您将获得客户服务查询。
+客户服务查询将使用{delimiter}字符作为分隔符。
+请仅输出一个可解析的Python列表，列表每一个元素是一个JSON对象，每个对象具有以下格式：
+'category': <包括以下几个类别：Computers and Laptops、Smartphones and Accessories、Televisions and Home Theater Systems、Gaming Consoles and Accessories、Audio Equipment、Cameras and Camcorders>,
+以及
+'products': <必须是下面的允许产品列表中找到的产品列表>
+
+类别和产品必须在客户服务查询中找到。
+如果提到了某个产品，它必须与允许产品列表中的正确类别关联。
+如果未找到任何产品或类别，则输出一个空列表。
+除了列表外，不要输出其他任何信息！
+
+允许的产品：
+
+Computers and Laptops category:
+TechPro Ultrabook
+BlueWave Gaming Laptop
+PowerLite Convertible
+TechPro Desktop
+BlueWave Chromebook
+
+Smartphones and Accessories category:
+SmartX ProPhone
+MobiTech PowerCase
+SmartX MiniPhone
+MobiTech Wireless Charger
+SmartX EarBuds
+
+Televisions and Home Theater Systems category:
+CineView 4K TV
+SoundMax Home Theater
+CineView 8K TV
+SoundMax Soundbar
+CineView OLED TV
+
+Gaming Consoles and Accessories category:
+GameSphere X
+ProGamer Controller
+GameSphere Y
+ProGamer Racing Wheel
+GameSphere VR Headset
+
+Audio Equipment category:
+AudioPhonic Noise-Canceling Headphones
+WaveSound Bluetooth Speaker
+AudioPhonic True Wireless Earbuds
+WaveSound Soundbar
+AudioPhonic Turntable
+
+Cameras and Camcorders category:
+FotoSnap DSLR Camera
+ActionCam 4K
+FotoSnap Mirrorless Camera
+ZoomMaster Camcorder
+FotoSnap Instant Camera
+    
+只输出对象列表，不包含其他内容。
+    """
+    messages =  [  
+    {'role':'system', 'content': system_message},    
+    {'role':'user', 'content': f"{delimiter}{user_input}{delimiter}"},  
+    ] 
+    return get_completion_from_messages(messages, model_endpoint)
+
 # 从问题中抽取商品
 def get_products_from_query(user_msg):
     """
@@ -300,6 +401,41 @@ def get_products_from_query(user_msg):
     {'role':'user', 'content': f"{delimiter}{user_msg}{delimiter}"},  
     ] 
     category_and_product_response = get_completion_from_messages(messages)
+    
+    return category_and_product_response
+
+def get_products_from_query_model(user_msg, model_endpoint):
+    """
+    代码来自于第五节课
+    """
+    products_and_category = get_products_and_category()
+    delimiter = "####"
+    system_message = f"""
+    您将获得客户服务查询。
+    客户服务查询将使用{delimiter}字符作为分隔符。
+    请仅输出一个可解析的Python列表，列表每一个元素是一个JSON对象，每个对象具有以下格式：
+    'category': <包括以下几个类别：Computers and Laptops、Smartphones and Accessories、Televisions and Home Theater Systems、Gaming Consoles and Accessories、Audio Equipment、Cameras and Camcorders>,
+    以及
+    'products': <必须是下面的允许产品列表中找到的产品列表>
+
+    类别和产品必须在客户服务查询中找到。
+    如果提到了某个产品，它必须与允许产品列表中的正确类别关联。
+    如果未找到任何产品或类别，则输出一个空列表。
+    除了列表外，不要输出其他任何信息！
+
+    允许的产品以JSON格式提供。
+    每个项目的键表示类别。
+    每个项目的值是该类别中的产品列表。
+
+    以下是允许的产品：{products_and_category}
+
+    """
+    
+    messages =  [  
+    {'role':'system', 'content': system_message},    
+    {'role':'user', 'content': f"{delimiter}{user_msg}{delimiter}"},  
+    ] 
+    category_and_product_response = get_completion_from_messages(messages, model_endpoint)
     
     return category_and_product_response
 
@@ -410,6 +546,27 @@ def answer_user_msg(user_msg,product_info):
     {'role':'assistant', 'content': f"相关产品信息:\n{product_info}"},   
     ] 
     response = get_completion_from_messages(messages)
+    return response
+
+
+def answer_user_msg_model(user_msg,product_info, model_endpoint):
+    """
+    代码参见第五节课
+    """
+    delimiter = "####"
+    system_message = f"""
+    您是一家大型电子商店的客户服务助理。\
+    请用友好和乐于助人的口吻回答问题，提供简洁明了的答案。\
+    确保向用户提出相关的后续问题。
+    """
+    # user_msg = f"""
+    # tell me about the smartx pro phone and the fotosnap camera, the dslr one. Also what tell me about your tvs"""
+    messages =  [  
+    {'role':'system', 'content': system_message},   
+    {'role':'user', 'content': f"{delimiter}{user_msg}{delimiter}"},  
+    {'role':'assistant', 'content': f"相关产品信息:\n{product_info}"},   
+    ] 
+    response = get_completion_from_messages(messages, model_endpoint)
     return response
 
 # 创建并存入商品数据

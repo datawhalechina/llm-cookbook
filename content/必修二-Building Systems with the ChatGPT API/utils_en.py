@@ -1,7 +1,23 @@
    
 import json
-import openai
+from openai import OpenAI
+from dotenv import load_dotenv, find_dotenv
 from collections import defaultdict
+
+
+# 实例化 OpenAI 对象
+
+loaded = load_dotenv(find_dotenv(), override=True)
+# 从环境变量中获取 OpenAI API Key 或者直接赋值
+API_KEY = os.getenv("API_KEY")
+
+
+# 如果您使用的是官方 API，就直接用 https://api.siliconflow.cn/v1 就行。
+BASE_URL = "https://api.siliconflow.cn/v1"
+
+
+# 传入参数：OpenAI API Key（必需）、Base URL 和最大重试次数
+client = OpenAI(api_key=API_KEY, base_url=BASE_URL, max_retries=3)
 
 # 商品和目录的数据文件
 products_file = 'products.json'
@@ -114,14 +130,32 @@ step_6_system_message_content = f"""
 step_6_system_message = {'role':'system', 'content': step_6_system_message_content}    
 
 # 使用 ChatCompletion 接口
-def get_completion_from_messages(messages, model="gpt-3.5-turbo", temperature=0, max_tokens=500):
-    response = openai.ChatCompletion.create(
-        model=model,
-        messages=messages,
-        temperature=temperature, 
-        max_tokens=max_tokens, 
-    )
-    return response.choices[0].message["content"]
+def get_completion_from_messages(messages, 
+                                 model_endpoint, 
+                                 temperature=0, 
+                                 max_tokens=500):
+    '''
+    封装一个支持更多参数的自定义访问 OpenAI GPT3.5 的函数
+
+    参数: 
+    messages: 这是一个消息列表，每个消息都是一个字典，包含 role(角色）和 content(内容)。角色可以是'system'、'user' 或 'assistant’，内容是角色的消息。
+    model: 调用的模型，默认为 gpt-3.5-turbo(ChatGPT)，有内测资格的用户可以选择 gpt-4
+    temperature: 这决定模型输出的随机程度，默认为0，表示输出将非常确定。增加温度会使输出更随机。
+    max_tokens: 这决定模型输出的最大的 token 数。
+    '''
+    extra_body = {}
+    if "Qwen3" in model_endpoint:
+        extra_body={
+            "enable_thinking": False
+        }
+        
+    response = client.chat.completions.create(model=model_endpoint,
+                                              messages=messages,
+                                              n=1, temperature=temperature, seed=42,
+                                              presence_penalty=0, frequency_penalty=0,
+                                              max_tokens=max_tokens, extra_body = extra_body
+                                             )
+    return response.choices[0].message.content.strip()
 
 # 创建目录（如果没有本地目录文件，需要创建一份）
 def create_categories():
@@ -236,46 +270,46 @@ def find_category_and_product_only(user_input,products_and_category):
 
     Allowed products: 
     Computers and Laptops category:
-TechPro Ultrabook
-BlueWave Gaming Laptop
-PowerLite Convertible
-TechPro Desktop
-BlueWave Chromebook
+    TechPro Ultrabook
+    BlueWave Gaming Laptop
+    PowerLite Convertible
+    TechPro Desktop
+    BlueWave Chromebook
 
-Smartphones and Accessories category:
-SmartX ProPhone
-MobiTech PowerCase
-SmartX MiniPhone
-MobiTech Wireless Charger
-SmartX EarBuds
+    Smartphones and Accessories category:
+    SmartX ProPhone
+    MobiTech PowerCase
+    SmartX MiniPhone
+    MobiTech Wireless Charger
+    SmartX EarBuds
 
-Televisions and Home Theater Systems category:
-CineView 4K TV
-SoundMax Home Theater
-CineView 8K TV
-SoundMax Soundbar
-CineView OLED TV
+    Televisions and Home Theater Systems category:
+    CineView 4K TV
+    SoundMax Home Theater
+    CineView 8K TV
+    SoundMax Soundbar
+    CineView OLED TV
 
-Gaming Consoles and Accessories category:
-GameSphere X
-ProGamer Controller
-GameSphere Y
-ProGamer Racing Wheel
-GameSphere VR Headset
+    Gaming Consoles and Accessories category:
+    GameSphere X
+    ProGamer Controller
+    GameSphere Y
+    ProGamer Racing Wheel
+    GameSphere VR Headset
 
-Audio Equipment category:
-AudioPhonic Noise-Canceling Headphones
-WaveSound Bluetooth Speaker
-AudioPhonic True Wireless Earbuds
-WaveSound Soundbar
-AudioPhonic Turntable
+    Audio Equipment category:
+    AudioPhonic Noise-Canceling Headphones
+    WaveSound Bluetooth Speaker
+    AudioPhonic True Wireless Earbuds
+    WaveSound Soundbar
+    AudioPhonic Turntable
 
-Cameras and Camcorders category:
-FotoSnap DSLR Camera
-ActionCam 4K
-FotoSnap Mirrorless Camera
-ZoomMaster Camcorder
-FotoSnap Instant Camera
+    Cameras and Camcorders category:
+    FotoSnap DSLR Camera
+    ActionCam 4K
+    FotoSnap Mirrorless Camera
+    ZoomMaster Camcorder
+    FotoSnap Instant Camera
     
     Only output the list of objects, nothing else.
     """
@@ -284,6 +318,73 @@ FotoSnap Instant Camera
     {'role':'user', 'content': f"{delimiter}{user_input}{delimiter}"},  
     ] 
     return get_completion_from_messages(messages)
+
+
+def find_category_and_product_only_model(user_input, model_endpoint, products_and_category):
+    delimiter = "####"
+    system_message = f"""
+    You will be provided with customer service queries. \
+    The customer service query will be delimited with {delimiter} characters.
+    Output a python list of objects, where each object has the following format:
+    'category': <one of Computers and Laptops, Smartphones and Accessories, Televisions and Home Theater Systems, \
+    Gaming Consoles and Accessories, Audio Equipment, Cameras and Camcorders>,
+    OR
+    'products': <a list of products that must be found in the allowed products below>
+
+    Where the categories and products must be found in the customer service query.
+    If a product is mentioned, it must be associated with the correct category in the allowed products list below.
+    If no products or categories are found, output an empty list.
+
+    Allowed products: 
+    Computers and Laptops category:
+    TechPro Ultrabook
+    BlueWave Gaming Laptop
+    PowerLite Convertible
+    TechPro Desktop
+    BlueWave Chromebook
+
+    Smartphones and Accessories category:
+    SmartX ProPhone
+    MobiTech PowerCase
+    SmartX MiniPhone
+    MobiTech Wireless Charger
+    SmartX EarBuds
+
+    Televisions and Home Theater Systems category:
+    CineView 4K TV
+    SoundMax Home Theater
+    CineView 8K TV
+    SoundMax Soundbar
+    CineView OLED TV
+
+    Gaming Consoles and Accessories category:
+    GameSphere X
+    ProGamer Controller
+    GameSphere Y
+    ProGamer Racing Wheel
+    GameSphere VR Headset
+
+    Audio Equipment category:
+    AudioPhonic Noise-Canceling Headphones
+    WaveSound Bluetooth Speaker
+    AudioPhonic True Wireless Earbuds
+    WaveSound Soundbar
+    AudioPhonic Turntable
+
+    Cameras and Camcorders category:
+    FotoSnap DSLR Camera
+    ActionCam 4K
+    FotoSnap Mirrorless Camera
+    ZoomMaster Camcorder
+    FotoSnap Instant Camera
+    
+    Only output the list of objects, nothing else.
+    """
+    messages =  [  
+    {'role':'system', 'content': system_message},    
+    {'role':'user', 'content': f"{delimiter}{user_input}{delimiter}"},  
+    ] 
+    return get_completion_from_messages(messages, model_endpoint)
 
 # 从问题中抽取商品
 def get_products_from_query(user_msg):
@@ -317,6 +418,40 @@ def get_products_from_query(user_msg):
     {'role':'user', 'content': f"{delimiter}{user_msg}{delimiter}"},  
     ] 
     category_and_product_response = get_completion_from_messages(messages)
+    
+    return category_and_product_response
+
+def get_products_from_query_model(user_msg, model_endpoint):
+    """
+    代码来自于第五节课
+    """
+    products_and_category = get_products_and_category()
+    delimiter = "####"
+    system_message = f"""
+    You will be provided with customer service queries. \
+    The customer service query will be delimited with {delimiter} characters.
+    Output a python list of json objects, where each object has the following format:
+        'category': <one of Computers and Laptops, Smartphones and Accessories, Televisions and Home Theater Systems, \
+    Gaming Consoles and Accessories, Audio Equipment, Cameras and Camcorders>,
+    OR
+        'products': <a list of products that must be found in the allowed products below>
+
+    Where the categories and products must be found in the customer service query.
+    If a product is mentioned, it must be associated with the correct category in the allowed products list below.
+    If no products or categories are found, output an empty list.
+
+    The allowed products are provided in JSON format.
+    The keys of each item represent the category.
+    The values of each item is a list of products that are within that category.
+    Allowed products: {products_and_category}
+
+    """
+    
+    messages =  [  
+    {'role':'system', 'content': system_message},    
+    {'role':'user', 'content': f"{delimiter}{user_msg}{delimiter}"},  
+    ] 
+    category_and_product_response = get_completion_from_messages(messages, model_endpoint)
     
     return category_and_product_response
 
@@ -425,6 +560,26 @@ def answer_user_msg(user_msg,product_info):
     {'role':'assistant', 'content': f"Relevant product information:\n{product_info}"},   
     ] 
     response = get_completion_from_messages(messages)
+    return response
+
+def answer_user_msg_model(user_msg,product_info, model_endpoint):
+    """
+    代码参见第五节课
+    """
+    delimiter = "####"
+    system_message = f"""
+    You are a customer service assistant for a large electronic store. \
+    Respond in a friendly and helpful tone, with concise answers. \
+    Make sure to ask the user relevant follow up questions.
+    """
+    # user_msg = f"""
+    # tell me about the smartx pro phone and the fotosnap camera, the dslr one. Also what tell me about your tvs"""
+    messages =  [  
+    {'role':'system', 'content': system_message},   
+    {'role':'user', 'content': f"{delimiter}{user_msg}{delimiter}"},  
+    {'role':'assistant', 'content': f"Relevant product information:\n{product_info}"},   
+    ] 
+    response = get_completion_from_messages(messages, model_endpoint)
     return response
 
 # 创建并存入商品数据
