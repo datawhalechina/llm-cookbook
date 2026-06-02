@@ -24,8 +24,8 @@ loaded = load_dotenv(find_dotenv(), override=True)
 # 从环境变量中获取 OpenAI API Key 或者直接赋值
 API_KEY = os.getenv("API_KEY")
 
-# 如果您使用的是官方 API，就直接用 https://api.siliconflow.cn/v1 就行。
-BASE_URL = "https://api.siliconflow.cn/v1"
+# 从环境变量中获取 BASE_URL，默认使用硅基流动
+BASE_URL = os.getenv("BASE_URL", "https://api.siliconflow.cn/v1")
 
 # 基于openai的OpenAI实例
 openai_client = OpenAI(api_key=API_KEY, base_url=BASE_URL, max_retries=3)
