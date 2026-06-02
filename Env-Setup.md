@@ -63,15 +63,15 @@ MODEL_NAME=Qwen/Qwen3-8B
 
 ### MiniMax
 
-[MiniMax](https://www.minimaxi.com/) 提供兼容 OpenAI 的 API 接口，支持 MiniMax-M2.7 等模型，最大支持 204K 上下文窗口。
+[MiniMax](https://www.minimaxi.com/) 提供兼容 OpenAI 的 API 接口，支持 MiniMax-M3 等模型，最大支持 512K 上下文窗口。
 
 ```text
 API_KEY=your_minimax_api_key
 BASE_URL=https://api.minimax.io/v1
-MODEL_NAME=MiniMax-M2.7
+MODEL_NAME=MiniMax-M3
 ```
 
-可选模型：`MiniMax-M2.7`（最新旗舰，增强推理与编码能力）、`MiniMax-M2.7-highspeed`（高速版）、`MiniMax-M2.5`（完整版）、`MiniMax-M2.5-highspeed`（高速版）。
+可选模型：`MiniMax-M3`（最新旗舰，512K 上下文，支持图片输入）、`MiniMax-M2.7`（上一代旗舰）、`MiniMax-M2.7-highspeed`（上一代高速版）。
 
 ### OpenAI
 
