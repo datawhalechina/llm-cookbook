@@ -45,6 +45,31 @@ loaded = load_dotenv(find_dotenv(), override=True)
 # 从环境变量中获取 OpenAI API Key 或者直接赋值
 API_KEY = os.getenv("API_KEY")
 
-# 如果您使用的是官方 API，就直接用 https://api.siliconflow.cn/v1 就行。
-BASE_URL = "https://api.siliconflow.cn/v1"
+# Read the model settings from the environment.
+BASE_URL = os.getenv("BASE_URL")
+MODEL_NAME = os.getenv("MODEL_NAME")
 ```
+
+## MiniMax configuration reference
+
+Set `MODEL_NAME` and `BASE_URL` in `.env` when using the MiniMax API:
+
+```text
+API_KEY=your_api_key
+MODEL_NAME=MiniMax-M3
+BASE_URL=https://api.minimax.io/v1
+```
+
+Choose the endpoint that matches the account region and client protocol:
+
+| Region | OpenAI-compatible endpoint | Anthropic-compatible endpoint | Documentation |
+| --- | --- | --- | --- |
+| Global | `https://api.minimax.io/v1` | `https://api.minimax.io/anthropic` | `https://platform.minimax.io/docs` |
+| China | `https://api.minimaxi.com/v1` | `https://api.minimaxi.com/anthropic` | `https://platform.minimaxi.com/docs` |
+
+Current model metadata and pricing in USD per million tokens:
+
+| Model | Context window | Input modalities | Thinking modes | Input | Output | Cache read | Cache write |
+| --- | ---: | --- | --- | ---: | ---: | ---: | ---: |
+| `MiniMax-M3` | 1,000,000 | text, image, video | adaptive, disabled | $0.60 | $2.40 | $0.12 | Not listed |
+| `MiniMax-M2.7` | 204,800 | text | always on | $0.30 | $1.20 | $0.06 | $0.375 |
